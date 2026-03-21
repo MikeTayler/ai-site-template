@@ -1,12 +1,31 @@
 {
   "siteTitle": "Align Studio",
   "items": [
-    { "label": "Home", "href": "/" },
-    { "label": "About", "href": "/about" },
-    { "label": "Services", "href": "/services" },
-    { "label": "Contact", "href": "/contact" }
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "About",
+      "href": "/about"
+    },
+    {
+      "label": "Services",
+      "href": "/services"
+    },
+    {
+      "label": "FAQs",
+      "href": "/faqs"
+    },
+    {
+      "label": "Contact",
+      "href": "/contact"
+    }
   ],
-  "cta": { "label": "Book a Class", "href": "/contact" },
+  "cta": {
+    "label": "Book a Class",
+    "href": "/contact"
+  },
   "footer": {
     "copyrightText": "© 2025 Align Studio. All rights reserved.",
     "tagline": "Small-group reformer pilates in the heart of Hamilton.",
@@ -14,23 +33,48 @@
       {
         "heading": "Studio",
         "links": [
-          { "label": "About us", "href": "/about" },
-          { "label": "Our team", "href": "/about#team" },
-          { "label": "Class types", "href": "/services" }
+          {
+            "label": "About us",
+            "href": "/about"
+          },
+          {
+            "label": "Our team",
+            "href": "/about#team"
+          },
+          {
+            "label": "Class types",
+            "href": "/services"
+          }
         ]
       },
       {
         "heading": "Visit",
         "links": [
-          { "label": "Contact & booking", "href": "/contact" },
-          { "label": "Parking & access", "href": "/contact#visit" }
+          {
+            "label": "Contact & booking",
+            "href": "/contact"
+          },
+          {
+            "label": "Parking & access",
+            "href": "/contact#visit"
+          },
+          {
+            "label": "FAQs",
+            "href": "/faqs"
+          }
         ]
       },
       {
         "heading": "Connect",
         "links": [
-          { "label": "Instagram", "href": "https://instagram.com" },
-          { "label": "Email", "href": "mailto:hello@alignstudio.co.nz" }
+          {
+            "label": "Instagram",
+            "href": "https://instagram.com"
+          },
+          {
+            "label": "Email",
+            "href": "mailto:hello@alignstudio.co.nz"
+          }
         ]
       }
     ]
