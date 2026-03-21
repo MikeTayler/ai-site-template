@@ -1,0 +1,89 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://ai-site.dev/content/schemas/brand.schema.json",
+  "title": "BrandConfig",
+  "description": "Full site brand file at /content/brand.json. ThemeProvider receives colors, typography, borderRadius, spacing; logo and voice are for assets and AI copy context.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "colors",
+    "typography",
+    "borderRadius",
+    "spacing",
+    "logo",
+    "voice"
+  ],
+  "properties": {
+    "colors": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "primary",
+        "secondary",
+        "accent",
+        "neutral",
+        "background",
+        "text",
+        "textLight"
+      ],
+      "properties": {
+        "primary": { "type": "string" },
+        "secondary": { "type": "string" },
+        "accent": { "type": "string" },
+        "neutral": { "type": "string" },
+        "background": { "type": "string" },
+        "text": { "type": "string" },
+        "textLight": { "type": "string" }
+      }
+    },
+    "typography": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["headingFont", "bodyFont", "baseSize", "scale"],
+      "properties": {
+        "headingFont": { "type": "string" },
+        "bodyFont": { "type": "string" },
+        "baseSize": { "type": "number" },
+        "scale": { "type": "number" }
+      }
+    },
+    "borderRadius": {
+      "type": "string",
+      "enum": ["none", "small", "medium", "large"]
+    },
+    "spacing": {
+      "type": "string",
+      "enum": ["compact", "normal", "relaxed"]
+    },
+    "logo": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["light", "dark"],
+      "properties": {
+        "light": { "type": "string", "minLength": 1 },
+        "dark": { "type": "string", "minLength": 1 }
+      }
+    },
+    "voice": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["tone", "industry", "audience", "keywords", "avoid"],
+      "properties": {
+        "tone": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "industry": { "type": "string" },
+        "audience": { "type": "string" },
+        "keywords": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "avoid": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    }
+  }
+}

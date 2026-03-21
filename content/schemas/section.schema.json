@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://ai-site.dev/content/schemas/section.schema.json",
+  "title": "SectionConfig",
+  "description": "One block in a page `sections` array — maps to a registry component + variant + props.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "component", "variant", "content"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Stable id for keys and editor paths (e.g. hero-home)."
+    },
+    "component": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Registry key (PascalCase), e.g. Hero, FeatureGrid."
+    },
+    "variant": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Component variant (kebab-case), e.g. three-column, centered."
+    },
+    "content": {
+      "type": "object",
+      "description": "Component-specific props; validated per component schema in the component library."
+    },
+    "settings": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "spacing": { "type": "string" },
+        "background": { "type": "string" },
+        "maxWidth": { "type": "string" },
+        "anchor": {
+          "type": "string",
+          "description": "Optional section anchor id for deep links (when supported by renderer)."
+        }
+      }
+    }
+  }
+}

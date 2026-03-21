@@ -1,0 +1,30 @@
+{
+  "colors": {
+    "primary": "#4A6741",
+    "secondary": "#8B7355",
+    "accent": "#D4A574",
+    "neutral": "#F5F0EB",
+    "background": "#FFFFFF",
+    "text": "#2D2D2D",
+    "textLight": "#6B6B6B"
+  },
+  "typography": {
+    "headingFont": "Playfair Display",
+    "bodyFont": "Inter",
+    "baseSize": 16,
+    "scale": 1.25
+  },
+  "borderRadius": "medium",
+  "spacing": "relaxed",
+  "logo": {
+    "light": "/images/logo-light.svg",
+    "dark": "/images/logo-dark.svg"
+  },
+  "voice": {
+    "tone": ["warm", "professional", "encouraging"],
+    "industry": "Health and wellness",
+    "audience": "Women aged 25-45 interested in rehabilitation and wellness",
+    "keywords": ["balance", "strength", "mindful movement"],
+    "avoid": ["aggressive", "extreme", "no pain no gain"]
+  }
+}

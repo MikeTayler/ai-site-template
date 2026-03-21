@@ -1,0 +1,4 @@
+{
+  "provider": "none",
+  "notes": "Replace with form provider config when enabled (e.g. Formspree, Netlify Forms)."
+}

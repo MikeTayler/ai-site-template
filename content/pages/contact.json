@@ -1,0 +1,80 @@
+{
+  "slug": "contact",
+  "title": "Contact — Align Studio Hamilton",
+  "description": "Book a class, ask a question, or plan your visit to Align Studio in Hamilton.",
+  "sections": [
+    {
+      "id": "hero-contact",
+      "component": "Hero",
+      "variant": "full-bleed",
+      "content": {
+        "heading": "We would love to hear from you",
+        "subheading": "Booking, waitlists, or a quick question — reach out and we will respond within one business day.",
+        "cta": { "label": "Send a message", "href": "mailto:hello@alignstudio.co.nz" }
+      },
+      "settings": {
+        "spacing": "normal",
+        "background": "accent",
+        "maxWidth": "wide"
+      }
+    },
+    {
+      "id": "visit-info",
+      "component": "TextContent",
+      "variant": "with-sidebar",
+      "content": {
+        "heading": "Visit the studio",
+        "paragraphs": [
+          "Align Studio lives on the first floor above the Riverside retail strip — look for the green door and intercom. Street parking is available on Victoria Street; covered parking is two blocks away at the central car park.",
+          "The space is shoe-free: we have lockers for bags and a filtered water station. Arrive five minutes early on your first visit so we can show you the reformer and any props for class."
+        ],
+        "asideTitle": "Opening hours",
+        "asideParagraphs": [
+          "Monday–Friday: 6:30am – 8:00pm",
+          "Saturday: 8:00am – 2:00pm",
+          "Sunday: Closed",
+          "Public holidays: limited timetable — check Instagram for updates."
+        ]
+      },
+      "settings": { "maxWidth": "wide" }
+    },
+    {
+      "id": "contact-form",
+      "component": "ContactForm",
+      "variant": "simple",
+      "content": {
+        "heading": "Send a message",
+        "description": "Tell us whether you are new to pilates, interested in a specific class, or looking for private sessions — we will reply with next steps.",
+        "submitLabel": "Send message",
+        "nameLabel": "Name",
+        "emailLabel": "Email",
+        "messageLabel": "How can we help?"
+      },
+      "settings": { "maxWidth": "narrow" }
+    },
+    {
+      "id": "contact-stats",
+      "component": "Stats",
+      "variant": "featured",
+      "content": {
+        "heading": "Typical response time",
+        "items": [
+          { "label": "Email replies", "value": "24", "suffix": " hrs" },
+          { "label": "New member onboarding", "value": "48", "suffix": " hrs" }
+        ]
+      },
+      "settings": { "maxWidth": "wide" }
+    },
+    {
+      "id": "cta-contact",
+      "component": "CTABanner",
+      "variant": "with-image",
+      "content": {
+        "heading": "Prefer to talk?",
+        "subheading": "Call us during opening hours or DM us on Instagram — same friendly team.",
+        "cta": { "label": "Email hello@alignstudio.co.nz", "href": "mailto:hello@alignstudio.co.nz" }
+      },
+      "settings": { "background": "neutral" }
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "slug": "services",
+  "title": "Services & Pricing — Align Studio",
+  "description": "Reformer classes, private sessions, and workshops at Align Studio Hamilton — timetables, pricing, and FAQs.",
+  "sections": [
+    {
+      "id": "hero-services",
+      "component": "Hero",
+      "variant": "centered",
+      "content": {
+        "heading": "Classes designed around you",
+        "subheading": "From first steps on the reformer to dynamic flows — find the session that fits your week.",
+        "cta": { "label": "Book via contact", "href": "/contact" }
+      },
+      "settings": {
+        "spacing": "relaxed",
+        "background": "background",
+        "maxWidth": "wide"
+      }
+    },
+    {
+      "id": "services-intro",
+      "component": "TextContent",
+      "variant": "single-column",
+      "content": {
+        "heading": "What we offer",
+        "paragraphs": [
+          "Every class is taught on professional-grade reformers with props when needed — rings, boxes, and light weights to layer challenge without losing control.",
+          "New to pilates? Start with Reformer Fundamentals: four weeks of foundations so you feel confident on the machine. Returning or experienced? Try Open Level or our Strength & Flow sessions for a faster pace.",
+          "Private and duet sessions are available by appointment — ideal for rehab goals, pregnancy, or athletes wanting sport-specific work."
+        ]
+      },
+      "settings": { "maxWidth": "narrow" }
+    },
+    {
+      "id": "pricing",
+      "component": "PricingTable",
+      "variant": "tier-cards",
+      "content": {
+        "heading": "Membership & passes",
+        "tiers": [
+          {
+            "name": "Intro month",
+            "price": "129",
+            "currency": "NZD",
+            "features": [
+              "4-week fundamentals course",
+              "Includes 5 group classes",
+              "Perfect for beginners"
+            ],
+            "cta": { "label": "Enquire", "href": "/contact" }
+          },
+          {
+            "name": "Studio regular",
+            "price": "89",
+            "currency": "NZD / mo",
+            "features": [
+              "8 group classes per month",
+              "Priority booking window",
+              "Freeze up to 2 weeks per year"
+            ],
+            "cta": { "label": "Join waitlist", "href": "/contact" }
+          },
+          {
+            "name": "Unlimited",
+            "price": "139",
+            "currency": "NZD / mo",
+            "features": [
+              "Unlimited group classes",
+              "Guest pass each quarter",
+              "10% off workshops"
+            ],
+            "cta": { "label": "Ask about availability", "href": "/contact" }
+          }
+        ]
+      },
+      "settings": { "maxWidth": "wide" }
+    },
+    {
+      "id": "stats-services",
+      "component": "Stats",
+      "variant": "with-icons",
+      "content": {
+        "heading": "By the numbers",
+        "items": [
+          { "label": "Max clients per class", "value": "8" },
+          { "label": "Instructors", "value": "3", "suffix": "+" },
+          { "label": "Years serving Hamilton", "value": "6", "suffix": "+" }
+        ]
+      },
+      "settings": { "maxWidth": "wide" }
+    },
+    {
+      "id": "faq-services",
+      "component": "FAQAccordion",
+      "variant": "simple",
+      "content": {
+        "heading": "Common questions",
+        "faqs": [
+          {
+            "question": "What should I wear?",
+            "answer": "Grip socks are required (we sell them at reception). Wear comfortable leggings or shorts and a top you can move in. Avoid zips or buckles that could catch the equipment."
+          },
+          {
+            "question": "Do I need experience?",
+            "answer": "No — start with Reformer Fundamentals or book a private intro. We will teach you how to set the springs, use the footbar, and move safely before you join mixed classes."
+          },
+          {
+            "question": "How do I book or cancel?",
+            "answer": "Contact us by email or phone to reserve your spot. Cancellations with more than 12 hours’ notice can be moved to another date; late cancels may be charged per our membership terms."
+          }
+        ]
+      },
+      "settings": { "maxWidth": "narrow" }
+    },
+    {
+      "id": "cta-services",
+      "component": "CTABanner",
+      "variant": "inline",
+      "content": {
+        "heading": "Questions about the right pass for you?",
+        "subheading": "We are happy to recommend a path before you commit.",
+        "cta": { "label": "Message the studio", "href": "/contact" }
+      },
+      "settings": { "background": "primary" }
+    }
+  ]
+}

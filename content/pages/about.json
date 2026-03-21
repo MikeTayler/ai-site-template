@@ -1,0 +1,62 @@
+{
+  "slug": "about",
+  "title": "About — Align Studio",
+  "description": "Our story: a boutique Hamilton pilates studio built on mindful movement, expert teaching, and community.",
+  "sections": [
+    {
+      "id": "hero-about",
+      "component": "Hero",
+      "variant": "split",
+      "content": {
+        "heading": "Movement with intention",
+        "subheading": "Align Studio was founded to offer reformer pilates that feels supportive, not performative — right here in Hamilton.",
+        "cta": { "label": "Explore classes", "href": "/services" }
+      },
+      "settings": {
+        "spacing": "relaxed",
+        "background": "neutral",
+        "maxWidth": "wide"
+      }
+    },
+    {
+      "id": "story",
+      "component": "TextContent",
+      "variant": "single-column",
+      "content": {
+        "heading": "Our story",
+        "paragraphs": [
+          "Align Studio began as a conversation between two instructors who had seen too many people leave studios feeling unseen. We wanted a space where small classes, clear progressions, and honest encouragement came before trends or quotas.",
+          "Today we are a tight-knit team teaching reformer pilates to busy professionals, new parents, athletes in recovery, and anyone curious about building strength from the inside out. Our approach blends classical principles with modern biomechanics — always with room to adapt.",
+          "Whether it is your first class or your five hundredth, we care that you leave feeling taller, steadier, and a little more at home in your body. That is what Align means to us."
+        ]
+      },
+      "settings": { "maxWidth": "narrow" }
+    },
+    {
+      "id": "team",
+      "component": "TeamGrid",
+      "variant": "headshots",
+      "content": {
+        "heading": "Meet the instructors",
+        "members": [
+          {
+            "name": "Emma Rivers",
+            "role": "Founder & Lead Instructor",
+            "bio": "STOTT-certified with 12 years on the reformer. Emma specialises in spinal mobility and return-to-movement programmes after injury."
+          },
+          {
+            "name": "Hana Nguyen",
+            "role": "Senior Instructor",
+            "bio": "Former dancer turned pilates obsessive. Hana’s classes are musical, precise, and full of options for every level."
+          },
+          {
+            "name": "Lucy Patel",
+            "role": "Instructor",
+            "bio": "Pre- and postnatal trained. Lucy loves helping members reconnect to core strength with patience and humour."
+          }
+        ]
+      },
+      "settings": { "maxWidth": "wide" }
+    }
+  ]
+}

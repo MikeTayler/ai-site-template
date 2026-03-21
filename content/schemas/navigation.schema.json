@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://ai-site.dev/content/schemas/navigation.schema.json",
+  "title": "NavigationConfig",
+  "description": "Global chrome at /content/navigation.json — header nav, CTA, and footer columns.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["siteTitle", "items", "footer"],
+  "properties": {
+    "siteTitle": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Brand name shown in the site header."
+    },
+    "items": {
+      "type": "array",
+      "description": "Primary navigation (top-level; optional nested children for future dropdowns).",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/definitions/navItem"
+      }
+    },
+    "cta": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["label", "href"],
+      "properties": {
+        "label": { "type": "string", "minLength": 1 },
+        "href": { "type": "string", "minLength": 1 }
+      }
+    },
+    "footer": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["copyrightText"],
+      "properties": {
+        "copyrightText": { "type": "string", "minLength": 1 },
+        "tagline": { "type": "string" },
+        "columns": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["links"],
+            "properties": {
+              "heading": { "type": "string" },
+              "links": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": ["label", "href"],
+                  "properties": {
+                    "label": { "type": "string", "minLength": 1 },
+                    "href": { "type": "string", "minLength": 1 }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "navItem": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["label", "href"],
+      "properties": {
+        "label": { "type": "string", "minLength": 1 },
+        "href": { "type": "string", "minLength": 1 },
+        "children": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/navItem"
+          }
+        }
+      }
+    }
+  }
+}

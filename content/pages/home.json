@@ -1,0 +1,82 @@
+{
+  "slug": "home",
+  "title": "Align Studio — Reformer Pilates in Hamilton",
+  "description": "Boutique reformer pilates studio in Hamilton: small classes, expert instruction, and a calm space to build strength and balance.",
+  "sections": [
+    {
+      "id": "hero-home",
+      "component": "Hero",
+      "variant": "centered",
+      "content": {
+        "heading": "Find your balance at Align Studio",
+        "subheading": "Small-group reformer pilates in Hamilton — thoughtful movement for every body.",
+        "cta": { "label": "View class types", "href": "/services" }
+      },
+      "settings": {
+        "spacing": "relaxed",
+        "background": "primary",
+        "maxWidth": "narrow"
+      }
+    },
+    {
+      "id": "benefits-grid",
+      "component": "FeatureGrid",
+      "variant": "three-column",
+      "content": {
+        "heading": "Why members choose Align",
+        "items": [
+          {
+            "title": "Small classes, real attention",
+            "description": "We cap every session so your instructor can correct form and tailor options — whether you are new to the reformer or building on years of practice."
+          },
+          {
+            "title": "Strength without strain",
+            "description": "Controlled, low-impact movement builds deep core stability and mobility — ideal for rehab, pre/postnatal, and anyone easing back into fitness."
+          },
+          {
+            "title": "A calm, welcoming space",
+            "description": "No mirrors, no pressure. Just natural light, good music, and a community that shows up for themselves and each other."
+          }
+        ]
+      },
+      "settings": { "maxWidth": "wide" }
+    },
+    {
+      "id": "testimonials-home",
+      "component": "Testimonials",
+      "variant": "cards",
+      "content": {
+        "heading": "What our community says",
+        "items": [
+          {
+            "quote": "After a knee injury I was nervous about group classes — the team met me where I was. Six months in, I feel stronger than I have in years.",
+            "author": "Sarah M.",
+            "role": "Member since 2023"
+          },
+          {
+            "quote": "Finally a studio that is not intimidating. Clear cues, beautiful space, and classes that leave me energised, not drained.",
+            "author": "Jess T.",
+            "role": "Reformer fundamentals"
+          },
+          {
+            "quote": "I have tried bigger gyms — Align feels personal. They remember your name and your goals.",
+            "author": "Alex P.",
+            "role": "Open-level classes"
+          }
+        ]
+      },
+      "settings": { "maxWidth": "wide" }
+    },
+    {
+      "id": "cta-home",
+      "component": "CTABanner",
+      "variant": "full-width",
+      "content": {
+        "heading": "Ready to step on the reformer?",
+        "subheading": "Book your first class or send us a question — we will help you find the right session.",
+        "cta": { "label": "Get in touch", "href": "/contact" }
+      },
+      "settings": { "background": "accent" }
+    }
+  ]
+}

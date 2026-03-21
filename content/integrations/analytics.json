@@ -1,0 +1,4 @@
+{
+  "provider": "none",
+  "notes": "Replace with analytics IDs when enabled (e.g. Plausible, GA4)."
+}

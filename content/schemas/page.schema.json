@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://ai-site.dev/content/schemas/page.schema.json",
+  "title": "PageConfig",
+  "description": "Page definition stored in /content/pages/*.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["slug", "title", "description", "sections"],
+  "properties": {
+    "slug": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Page key matching the filename without .json (e.g. home, about)."
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Document title / SEO title."
+    },
+    "description": {
+      "type": "string",
+      "description": "Meta description for SEO."
+    },
+    "sections": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "https://ai-site.dev/content/schemas/section.schema.json"
+      }
+    }
+  }
+}
