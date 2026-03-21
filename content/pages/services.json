@@ -10,7 +10,10 @@
       "content": {
         "heading": "Classes designed around you",
         "subheading": "From first steps on the reformer to dynamic flows — find the session that fits your week.",
-        "cta": { "label": "Book via contact", "href": "/contact" }
+        "cta": {
+          "label": "Book via contact",
+          "href": "/contact"
+        }
       },
       "settings": {
         "spacing": "relaxed",
@@ -30,51 +33,67 @@
           "Private and duet sessions are available by appointment — ideal for rehab goals, pregnancy, or athletes wanting sport-specific work."
         ]
       },
-      "settings": { "maxWidth": "narrow" }
+      "settings": {
+        "maxWidth": "narrow"
+      }
     },
     {
       "id": "pricing",
       "component": "PricingTable",
       "variant": "tier-cards",
       "content": {
-        "heading": "Membership & passes",
+        "heading": "Simple, transparent pricing",
         "tiers": [
           {
-            "name": "Intro month",
-            "price": "129",
+            "name": "Single Session",
+            "price": "$50",
             "currency": "NZD",
             "features": [
-              "4-week fundamentals course",
-              "Includes 5 group classes",
-              "Perfect for beginners"
+              "One group reformer class",
+              "Expert instructor guidance",
+              "All equipment provided",
+              "Great for trying us out"
             ],
-            "cta": { "label": "Enquire", "href": "/contact" }
+            "cta": {
+              "label": "Book a session",
+              "href": "/contact"
+            }
           },
           {
-            "name": "Studio regular",
-            "price": "89",
-            "currency": "NZD / mo",
+            "name": "Monthly Membership",
+            "price": "$250",
+            "currency": "NZD / month",
             "features": [
-              "8 group classes per month",
+              "Unlimited group classes for the month",
+              "Best value for regular movers",
               "Priority booking window",
-              "Freeze up to 2 weeks per year"
+              "Flexible — no long-term lock-in"
             ],
-            "cta": { "label": "Join waitlist", "href": "/contact" }
-          },
-          {
-            "name": "Unlimited",
-            "price": "139",
-            "currency": "NZD / mo",
-            "features": [
-              "Unlimited group classes",
-              "Guest pass each quarter",
-              "10% off workshops"
-            ],
-            "cta": { "label": "Ask about availability", "href": "/contact" }
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
           }
         ]
       },
-      "settings": { "maxWidth": "wide" }
+      "settings": {
+        "maxWidth": "wide"
+      }
+    },
+    {
+      "id": "pricing-note",
+      "component": "TextContent",
+      "variant": "single-column",
+      "content": {
+        "heading": "Not sure which option suits you?",
+        "paragraphs": [
+          "If you are just beginning your pilates journey, a single session is a wonderful way to experience the reformer and meet our team before committing to anything more. If you already know you want to make mindful movement a regular part of your week, the monthly membership offers the best value — and the consistency that helps you feel real results.",
+          "We are always happy to chat through what makes sense for your goals and schedule. Just reach out and we will point you in the right direction."
+        ]
+      },
+      "settings": {
+        "maxWidth": "narrow"
+      }
     },
     {
       "id": "stats-services",
@@ -83,12 +102,25 @@
       "content": {
         "heading": "By the numbers",
         "items": [
-          { "label": "Max clients per class", "value": "8" },
-          { "label": "Instructors", "value": "3", "suffix": "+" },
-          { "label": "Years serving Hamilton", "value": "6", "suffix": "+" }
+          {
+            "label": "Max clients per class",
+            "value": "8"
+          },
+          {
+            "label": "Instructors",
+            "value": "3",
+            "suffix": "+"
+          },
+          {
+            "label": "Years serving Hamilton",
+            "value": "6",
+            "suffix": "+"
+          }
         ]
       },
-      "settings": { "maxWidth": "wide" }
+      "settings": {
+        "maxWidth": "wide"
+      }
     },
     {
       "id": "faq-services",
@@ -107,22 +139,29 @@
           },
           {
             "question": "How do I book or cancel?",
-            "answer": "Contact us by email or phone to reserve your spot. Cancellations with more than 12 hours’ notice can be moved to another date; late cancels may be charged per our membership terms."
+            "answer": "Contact us by email or phone to reserve your spot. Cancellations with more than 12 hours' notice can be moved to another date; late cancels may be charged per our membership terms."
           }
         ]
       },
-      "settings": { "maxWidth": "narrow" }
+      "settings": {
+        "maxWidth": "narrow"
+      }
     },
     {
       "id": "cta-services",
       "component": "CTABanner",
       "variant": "inline",
       "content": {
-        "heading": "Questions about the right pass for you?",
+        "heading": "Questions about the right option for you?",
         "subheading": "We are happy to recommend a path before you commit.",
-        "cta": { "label": "Message the studio", "href": "/contact" }
+        "cta": {
+          "label": "Message the studio",
+          "href": "/contact"
+        }
       },
-      "settings": { "background": "primary" }
+      "settings": {
+        "background": "primary"
+      }
     }
   ]
 }

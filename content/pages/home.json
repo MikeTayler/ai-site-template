@@ -64,6 +64,47 @@
       }
     },
     {
+      "id": "pricing-home",
+      "component": "PricingTable",
+      "variant": "tier-cards",
+      "content": {
+        "heading": "Straightforward pricing",
+        "tiers": [
+          {
+            "name": "Single Session",
+            "price": "$50",
+            "currency": "NZD",
+            "features": [
+              "One group reformer class",
+              "All equipment provided",
+              "Perfect for getting started"
+            ],
+            "cta": {
+              "label": "Book a session",
+              "href": "/contact"
+            }
+          },
+          {
+            "name": "Monthly Membership",
+            "price": "$250",
+            "currency": "NZD / month",
+            "features": [
+              "Unlimited group classes",
+              "Best value for regular movers",
+              "Priority booking window"
+            ],
+            "cta": {
+              "label": "Get started",
+              "href": "/contact"
+            }
+          }
+        ]
+      },
+      "settings": {
+        "maxWidth": "wide"
+      }
+    },
+    {
       "id": "testimonials-home",
       "component": "Testimonials",
       "variant": "cards",
@@ -135,7 +176,7 @@
           },
           {
             "question": "How do I get started, and what is the best membership option for a new member?",
-            "answer": "The easiest first step is to reach out via our contact page or send us an email — we will have a friendly conversation about your goals and recommend the right starting point. Most new members begin with our Intro Month package, which includes the four-week Fundamentals course and five group classes, giving you a solid foundation before choosing an ongoing membership."
+            "answer": "The easiest first step is to reach out via our contact page or send us an email — we will have a friendly conversation about your goals and recommend the right starting point. Most new members begin with a single session at $50 to get a feel for the studio, then move to our monthly membership at $250 for unlimited classes once they are ready to commit to a regular practice."
           }
         ]
       },
