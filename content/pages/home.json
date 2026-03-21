@@ -8,9 +8,12 @@
       "component": "Hero",
       "variant": "centered",
       "content": {
-        "heading": "Find your balance at Align Studio",
+        "heading": "I'm a monkeys uncle",
         "subheading": "Small-group reformer pilates in Hamilton — thoughtful movement for every body.",
-        "cta": { "label": "View class types", "href": "/services" }
+        "cta": {
+          "label": "View class types",
+          "href": "/services"
+        }
       },
       "settings": {
         "spacing": "relaxed",
@@ -39,7 +42,9 @@
           }
         ]
       },
-      "settings": { "maxWidth": "wide" }
+      "settings": {
+        "maxWidth": "wide"
+      }
     },
     {
       "id": "testimonials-home",
@@ -65,7 +70,9 @@
           }
         ]
       },
-      "settings": { "maxWidth": "wide" }
+      "settings": {
+        "maxWidth": "wide"
+      }
     },
     {
       "id": "cta-home",
@@ -74,9 +81,14 @@
       "content": {
         "heading": "Ready to step on the reformer?",
         "subheading": "Book your first class or send us a question — we will help you find the right session.",
-        "cta": { "label": "Get in touch", "href": "/contact" }
+        "cta": {
+          "label": "Get in touch",
+          "href": "/contact"
+        }
       },
-      "settings": { "background": "accent" }
+      "settings": {
+        "background": "accent"
+      }
     }
   ]
 }
