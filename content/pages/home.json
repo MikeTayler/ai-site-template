@@ -105,6 +105,44 @@
       "settings": {
         "background": "accent"
       }
+    },
+    {
+      "id": "faq-home",
+      "component": "FAQAccordion",
+      "variant": "simple",
+      "content": {
+        "heading": "Your questions, answered",
+        "faqs": [
+          {
+            "question": "I have never done pilates before — is Align Studio the right place to start?",
+            "answer": "Absolutely. Our Reformer Fundamentals course is designed specifically for beginners. Over four weeks you will learn how to set up the machine, work with the springs safely, and build the foundations that make every class feel more rewarding. Our instructors are patient, encouraging, and genuinely love helping new members find their footing."
+          },
+          {
+            "question": "How small are the classes, and why does it matter?",
+            "answer": "We cap every group session at eight people. That means your instructor can see you, cue you by name, and offer modifications that suit your body on that particular day — something that simply is not possible in larger studio settings. Smaller classes also create a warmer, more supportive atmosphere where you can focus without feeling watched."
+          },
+          {
+            "question": "Is reformer pilates suitable if I am recovering from an injury or managing a health condition?",
+            "answer": "Reformer pilates is widely used in rehabilitation because it supports the body through movement rather than loading it. We have experience working with members returning from back, hip, and knee injuries, as well as those managing chronic conditions. We do recommend letting us know about any injuries or medical considerations before your first class so we can tailor your experience safely."
+          },
+          {
+            "question": "What do I need to bring to my first class?",
+            "answer": "Grip socks are required for hygiene and safety on the reformer — we stock them at reception if you need a pair. Wear comfortable, form-fitting clothing you can move freely in, and avoid anything with zips or buckles that could catch the equipment. Bring a water bottle and arrive five minutes early so we can give you a quick studio orientation."
+          },
+          {
+            "question": "Can I come if I am pregnant or have recently had a baby?",
+            "answer": "Yes — with the right guidance, reformer pilates can be a wonderful support during and after pregnancy. Our instructor Lucy is pre- and postnatal trained and will work with you to ensure every movement is appropriate for your stage. Please let us know when you book so we can place you with the right class and instructor."
+          },
+          {
+            "question": "How do I get started, and what is the best membership option for a new member?",
+            "answer": "The easiest first step is to reach out via our contact page or send us an email — we will have a friendly conversation about your goals and recommend the right starting point. Most new members begin with our Intro Month package, which includes the four-week Fundamentals course and five group classes, giving you a solid foundation before choosing an ongoing membership."
+          }
+        ]
+      },
+      "settings": {
+        "maxWidth": "narrow",
+        "spacing": "relaxed"
+      }
     }
   ]
 }
