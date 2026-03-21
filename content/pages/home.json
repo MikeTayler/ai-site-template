@@ -22,6 +22,23 @@
       }
     },
     {
+      "id": "services-intro-home",
+      "component": "TextContent",
+      "variant": "single-column",
+      "content": {
+        "heading": "What we offer",
+        "paragraphs": [
+          "At Align Studio, we believe that feeling strong and balanced should be accessible to every body. Our small-group reformer pilates classes are designed to meet you where you are — whether you are taking your very first steps on the reformer or deepening a long-standing practice.",
+          "From our beginner-friendly Reformer Fundamentals course to dynamic Strength & Flow sessions, every class is led by expert instructors who bring warmth, precision, and genuine care to each session. We also offer private and duet appointments for those with specific rehabilitation, prenatal, or performance goals.",
+          "Explore our services to find the class that fits your life — and when you are ready, we would love to welcome you to the studio."
+        ]
+      },
+      "settings": {
+        "maxWidth": "narrow",
+        "spacing": "relaxed"
+      }
+    },
+    {
       "id": "benefits-grid",
       "component": "FeatureGrid",
       "variant": "three-column",
