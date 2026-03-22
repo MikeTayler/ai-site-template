@@ -251,6 +251,7 @@ None required — this is a pure library.
 
 ### Client Site Template
 - `CANONICAL_DOMAIN` — the primary domain for redirects and sitemap
+- `ADMIN_APP_URL` — one or more base URLs of the AI Site Admin app, comma-separated (e.g. `https://admin.example.com,http://localhost:3005`). Used in `Content-Security-Policy: frame-ancestors` so the client site can be embedded in the admin preview iframe only from those origins. If unset, defaults to `http://localhost:3000`, `:3001`, and `:3002` so local preview works without configuration. If set but every URL is invalid, framing is denied (`frame-ancestors 'none'`).
 
 **`@ai-site/components` dependency:** In the AI Site Builder monorepo, this template uses `file:../ai-site-components` in `package.json` so the app resolves the sibling library. For a fork without that layout, point the dependency at GitHub instead, for example `git+https://github.com/MikeTayler/ai-site-components.git`. The library’s `package.json` `files` field must include everything required to produce `dist` (e.g. `src`, `tsup.config.ts`, `scripts`) if you rely on building from a git install; otherwise run `npm run build` in the library repo and commit or publish `dist`.
 
