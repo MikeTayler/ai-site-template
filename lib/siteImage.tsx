@@ -97,6 +97,8 @@ export function SiteImage({
 
   const trimmed = typeof src === "string" ? src.trim() : "";
   const showPlaceholder = !trimmed || failed;
+  /** Next/Image's default optimizer often fails for SVGs; load them as static assets instead. */
+  const unoptimized = /\.svg(\?|#|$)/i.test(trimmed);
 
   const objectPosition =
     focalPoint != null
@@ -123,6 +125,7 @@ export function SiteImage({
           style={{ objectFit, objectPosition }}
           onError={onError}
           priority={priority}
+          unoptimized={unoptimized}
         />
       </div>
     );
@@ -142,6 +145,7 @@ export function SiteImage({
       style={{ objectFit, objectPosition }}
       onError={onError}
       priority={priority}
+      unoptimized={unoptimized}
     />
   );
 }
