@@ -251,7 +251,11 @@ None required — this is a pure library.
 
 ### Client Site Template
 - `CANONICAL_DOMAIN` — the primary domain for redirects and sitemap
-- `ADMIN_APP_URL` — one or more base URLs of the AI Site Admin app, comma-separated (e.g. `https://admin.example.com,http://localhost:3005`). Used in `Content-Security-Policy: frame-ancestors` so the client site can be embedded in the admin preview iframe only from those origins. If unset, defaults to `http://localhost:3000`, `:3001`, and `:3002` so local preview works without configuration. If set but every URL is invalid, framing is denied (`frame-ancestors 'none'`).
+- `ADMIN_APP_URL` — one or more base URLs of the AI Site Admin app, comma-separated (e.g. `https://admin.example.com,http://localhost:3005`). Each entry can be a full URL or a host / `host:port` string (normalized to `https://…` when no scheme is given). Used by **Edge `middleware.ts`** to set `Content-Security-Policy: frame-ancestors` on every response so the client site can be embedded in the admin preview iframe only from those origins. (CSP is **not** set from `next.config.mjs` alone — middleware ensures `ADMIN_APP_URL` from Vercel applies at request time; **redeploy** after changing this variable.) If unset, defaults to `http://localhost:3000`, `:3001`, and `:3002`. If set but every entry is invalid, framing is denied (`frame-ancestors 'none'`).
+
+**Authentication:** This template is a **public static site** — it does **not** install or use Clerk, `next-auth`, or any auth middleware.
+
+**Preview iframe troubleshooting:** In DevTools → Network, open a **document** request (e.g. `/`) and confirm `content-security-policy` includes `frame-ancestors` with your admin **origin** (scheme + host + port). This app does not send `X-Frame-Options`. If you still see **`x-frame-options: DENY`** (or `SAMEORIGIN`), disable that header in the **Vercel project** → Security / Headers (or any platform rule) — it overrides CSP and blocks embedding.
 
 **`@ai-site/components` dependency:** In the AI Site Builder monorepo, this template uses `file:../ai-site-components` in `package.json` so the app resolves the sibling library. For a fork without that layout, point the dependency at GitHub instead, for example `git+https://github.com/MikeTayler/ai-site-components.git`. The library’s `package.json` `files` field must include everything required to produce `dist` (e.g. `src`, `tsup.config.ts`, `scripts`) if you rely on building from a git install; otherwise run `npm run build` in the library repo and commit or publish `dist`.
 
