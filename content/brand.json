@@ -17,7 +17,7 @@
   "borderRadius": "small",
   "spacing": "relaxed",
   "logo": {
-    "light": "/images/brand-light.svg",
+    "light": "/images/brand-light.png",
     "dark": "/images/logo-dark.svg"
   },
   "voice": {
