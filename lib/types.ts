@@ -73,6 +73,8 @@ export interface BrandConfig {
     tone: string[];
     industry: string;
     audience: string;
+    /** Key messages / value propositions (optional; admin brand UI) */
+    valuePropositions?: string[];
     keywords: string[];
     avoid: string[];
   };

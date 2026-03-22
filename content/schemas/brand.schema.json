@@ -75,6 +75,11 @@
         },
         "industry": { "type": "string" },
         "audience": { "type": "string" },
+        "valuePropositions": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Key messages / value propositions (admin brand UI, phase 4.5)"
+        },
         "keywords": {
           "type": "array",
           "items": { "type": "string" }
