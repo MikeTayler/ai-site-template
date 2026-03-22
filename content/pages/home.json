@@ -97,6 +97,21 @@
               "label": "Get started",
               "href": "/contact"
             }
+          },
+          {
+            "name": "Life Membership",
+            "price": "$1,800",
+            "currency": "NZD one-time",
+            "features": [
+              "Unlimited group classes for life",
+              "Permanent priority booking",
+              "Exclusive member events & workshops",
+              "Complimentary annual private session"
+            ],
+            "cta": {
+              "label": "Enquire now",
+              "href": "/contact"
+            }
           }
         ]
       },

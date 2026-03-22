@@ -73,6 +73,21 @@
               "label": "Get started",
               "href": "/contact"
             }
+          },
+          {
+            "name": "Life Membership",
+            "price": "$1,800",
+            "currency": "NZD one-time",
+            "features": [
+              "Unlimited group classes for life",
+              "Permanent priority booking",
+              "Exclusive member events & workshops",
+              "Complimentary annual private session"
+            ],
+            "cta": {
+              "label": "Enquire now",
+              "href": "/contact"
+            }
           }
         ]
       },
@@ -88,6 +103,7 @@
         "heading": "Not sure which option suits you?",
         "paragraphs": [
           "If you are just beginning your pilates journey, a single session is a wonderful way to experience the reformer and meet our team before committing to anything more. If you already know you want to make mindful movement a regular part of your week, the monthly membership offers the best value — and the consistency that helps you feel real results.",
+          "For those who have found their home at Align and want to commit to a lifetime of balanced, mindful movement, our Life Membership is a one-time investment in your long-term wellbeing. Reach out and we will be happy to walk you through what it includes.",
           "We are always happy to chat through what makes sense for your goals and schedule. Just reach out and we will point you in the right direction."
         ]
       },
