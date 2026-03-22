@@ -106,12 +106,58 @@ export function SiteImage({
       : "50% 50%";
 
   const resolvedSizes = sizes ?? SIZE_PRESETS[sizeContext] ?? SIZE_PRESETS.card;
+  const w = width ?? 800;
+  const h = height ?? 600;
 
   if (showPlaceholder) {
     return <Placeholder alt={alt} className={className} />;
   }
 
   const imgClass = ["siteImage_img", className].filter(Boolean).join(" ");
+
+  /** SVG: use a plain img so static files in /public always load the same in dev and on Vercel. */
+  if (unoptimized) {
+    if (fill) {
+      return (
+        <div className="siteImage siteImage_fillWrap">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={trimmed}
+            alt={alt}
+            className={imgClass}
+            style={{
+              position: "absolute",
+              inset: 0,
+              width: "100%",
+              height: "100%",
+              objectFit,
+              objectPosition,
+            }}
+            onError={onError}
+            loading={priority ? "eager" : "lazy"}
+            decoding="async"
+            fetchPriority={priority ? "high" : undefined}
+          />
+        </div>
+      );
+    }
+
+    return (
+      // eslint-disable-next-line @next/next/no-img-element
+      <img
+        src={trimmed}
+        alt={alt}
+        width={w}
+        height={h}
+        className={["siteImage", imgClass].filter(Boolean).join(" ")}
+        style={{ objectFit, objectPosition }}
+        onError={onError}
+        loading={priority ? "eager" : "lazy"}
+        decoding="async"
+        fetchPriority={priority ? "high" : undefined}
+      />
+    );
+  }
 
   if (fill) {
     return (
@@ -125,14 +171,10 @@ export function SiteImage({
           style={{ objectFit, objectPosition }}
           onError={onError}
           priority={priority}
-          unoptimized={unoptimized}
         />
       </div>
     );
   }
-
-  const w = width ?? 800;
-  const h = height ?? 600;
 
   return (
     <Image
@@ -145,7 +187,6 @@ export function SiteImage({
       style={{ objectFit, objectPosition }}
       onError={onError}
       priority={priority}
-      unoptimized={unoptimized}
     />
   );
 }
