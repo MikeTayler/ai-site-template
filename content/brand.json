@@ -1,30 +1,43 @@
 {
   "colors": {
-    "primary": "#4A6741",
-    "secondary": "#8B7355",
-    "accent": "#D4A574",
-    "neutral": "#F5F0EB",
+    "primary": "#4e4b6d",
+    "secondary": "#c9467f",
+    "accent": "#ffd44f",
+    "neutral": "#f4f8ff",
     "background": "#FFFFFF",
-    "text": "#2D2D2D",
+    "text": "#43415e",
     "textLight": "#6B6B6B"
   },
   "typography": {
-    "headingFont": "Playfair Display",
+    "headingFont": "Poppins",
     "bodyFont": "Inter",
     "baseSize": 16,
     "scale": 1.25
   },
-  "borderRadius": "medium",
+  "borderRadius": "small",
   "spacing": "relaxed",
   "logo": {
-    "light": "/images/logo-light.svg",
+    "light": "/images/brand-light.svg",
     "dark": "/images/logo-dark.svg"
   },
   "voice": {
-    "tone": ["warm", "professional", "encouraging"],
+    "tone": [
+      "warm",
+      "professional",
+      "encouraging"
+    ],
     "industry": "Health and wellness",
     "audience": "Women aged 25-45 interested in rehabilitation and wellness",
-    "keywords": ["balance", "strength", "mindful movement"],
-    "avoid": ["aggressive", "extreme", "no pain no gain"]
+    "valuePropositions": [],
+    "keywords": [
+      "balance",
+      "strength",
+      "mindful movement"
+    ],
+    "avoid": [
+      "aggressive",
+      "extreme",
+      "no pain no gain"
+    ]
   }
 }
