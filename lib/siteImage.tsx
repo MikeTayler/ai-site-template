@@ -46,6 +46,7 @@ export interface SiteImageProps extends ImageConfig {
   priority?: boolean;
   /** Optional hook for visual editor paths */
   contentPathPrefix?: string;
+  objectFit?: "cover" | "contain";
 }
 
 function clamp01(n: number): number {
@@ -86,6 +87,7 @@ export function SiteImage({
   sizes,
   fill = false,
   priority,
+  objectFit = "cover",
 }: SiteImageProps) {
   const [failed, setFailed] = useState(false);
 
@@ -118,7 +120,7 @@ export function SiteImage({
           fill
           sizes={resolvedSizes}
           className={imgClass}
-          style={{ objectFit: "cover", objectPosition }}
+          style={{ objectFit, objectPosition }}
           onError={onError}
           priority={priority}
         />
@@ -137,7 +139,7 @@ export function SiteImage({
       height={h}
       sizes={resolvedSizes}
       className={["siteImage", imgClass].filter(Boolean).join(" ")}
-      style={{ objectFit: "cover", objectPosition }}
+      style={{ objectFit, objectPosition }}
       onError={onError}
       priority={priority}
     />

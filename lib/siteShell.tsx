@@ -5,9 +5,9 @@ import {
   ThemeProvider,
   defaultRegistry,
   resolveComponent,
-  type BrandConfig,
 } from "@ai-site/components";
-import type { NavItem, NavigationConfig } from "./types";
+import { themeBrandFromConfig } from "./brand";
+import type { BrandConfig, NavItem, NavigationConfig } from "./types";
 
 const SiteHeader = resolveComponent(defaultRegistry, "SiteHeader");
 const SiteFooter = resolveComponent(defaultRegistry, "SiteFooter");
@@ -26,8 +26,10 @@ export function SiteShell({
   navigation: NavigationConfig;
   children: React.ReactNode;
 }) {
+  const themeBrand = themeBrandFromConfig(brand);
+
   return (
-    <ThemeProvider brand={brand}>
+    <ThemeProvider brand={themeBrand}>
       <Suspense fallback={<div className="min-h-[3.5rem]" aria-hidden />}>
         <SiteHeader
           variant="sticky"
@@ -35,6 +37,7 @@ export function SiteShell({
             siteTitle: navigation.siteTitle,
             navLinks: headerLinksFromItems(navigation.items),
             cta: navigation.cta,
+            logo: brand.logo,
           }}
           settings={{ background: "background", maxWidth: "wide" }}
           contentPathPrefix="navigation.siteHeader"

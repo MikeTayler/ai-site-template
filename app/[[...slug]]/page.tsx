@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { PageRenderer } from "@/lib/renderer";
 import { SiteShell } from "@/lib/siteShell";
-import { themeBrandFromConfig } from "@/lib/brand";
+import { GoogleFontLinks } from "@/lib/googleFonts";
 import {
   slugSegmentsToPageKey,
   readPageJsonRaw,
@@ -58,7 +58,6 @@ export default function SitePage({
     JSON.parse(readBrandJsonRaw()),
     "brand",
   );
-  const themeBrand = themeBrandFromConfig(brand);
 
   const navigation = assertValid<NavigationConfig>(
     JSON.parse(readNavigationJsonRaw()),
@@ -66,8 +65,14 @@ export default function SitePage({
   );
 
   return (
-    <SiteShell brand={themeBrand} navigation={navigation}>
-      <PageRenderer page={page} />
-    </SiteShell>
+    <>
+      <GoogleFontLinks
+        headingFont={brand.typography.headingFont}
+        bodyFont={brand.typography.bodyFont}
+      />
+      <SiteShell brand={brand} navigation={navigation}>
+        <PageRenderer page={page} />
+      </SiteShell>
+    </>
   );
 }
