@@ -1,0 +1,111 @@
+{
+  "slug": "faqs",
+  "title": "FAQs — DeckChair Co.",
+  "description": "Frequently asked questions about DeckChair Co. deck chairs, delivery, returns, and more — in English and French. / Questions fréquentes sur les chaises longues DeckChair Co., la livraison, les retours et plus encore.",
+  "sections": [
+    {
+      "id": "hero-faqs",
+      "component": "Hero",
+      "variant": "centered",
+      "content": {
+        "heading": "Frequently Asked Questions / Questions fréquentes",
+        "subheading": "Everything you need to know about our deck chairs, delivery, and service — in English and French. / Tout ce que vous devez savoir sur nos chaises longues, la livraison et notre service — en anglais et en français."
+      },
+      "settings": {
+        "spacing": "relaxed",
+        "background": "neutral",
+        "maxWidth": "narrow"
+      }
+    },
+    {
+      "id": "faq-main",
+      "component": "FAQAccordion",
+      "variant": "grouped",
+      "content": {
+        "heading": "All Questions / Toutes les questions",
+        "groups": [
+          {
+            "title": "Products / Produits",
+            "items": [
+              {
+                "question": "What materials are your deck chairs made from? / Dans quels matériaux sont fabriquées vos chaises longues ?",
+                "answer": "Our Classic collection uses FSC-certified hardwood frames with traditional canvas covers. The Contemporary range features premium teak or powder-coated steel with Sunbrella® fabric. The Luxe collection is hand-finished in solid teak with fully customisable fabric options. / Notre collection Classic utilise des cadres en bois certifié FSC avec des housses en canvas traditionnel. La gamme Contemporary propose du teck premium ou de l'acier laqué avec du tissu Sunbrella®. La collection Luxe est finie à la main en teck massif avec des options de tissu entièrement personnalisables."
+              },
+              {
+                "question": "Can I request fabric samples before ordering? / Puis-je demander des échantillons de tissu avant de commander ?",
+                "answer": "Yes — we offer a free fabric sample service for all collections. Simply contact us and we will send swatches to help you choose with confidence. / Oui — nous proposons un service d'échantillons gratuits pour toutes les collections. Contactez-nous simplement et nous vous enverrons des échantillons pour choisir en toute confiance."
+              },
+              {
+                "question": "Are your chairs suitable for use near the sea? / Vos chaises conviennent-elles à une utilisation en bord de mer ?",
+                "answer": "Yes. Our Contemporary and Luxe collections are specifically designed to resist salt air and humidity. We recommend rinsing frames with fresh water periodically in coastal environments. / Oui. Nos collections Contemporary et Luxe sont spécifiquement conçues pour résister à l'air salin et à l'humidité. Nous recommandons de rincer les cadres à l'eau douce périodiquement dans les environnements côtiers."
+              }
+            ]
+          },
+          {
+            "title": "Delivery / Livraison",
+            "items": [
+              {
+                "question": "Which countries do you deliver to? / Dans quels pays livrez-vous ?",
+                "answer": "We deliver to all major European markets including France, the UK, Germany, Spain, Italy, the Netherlands, Belgium, Portugal, and more. Full details are available at checkout. / Nous livrons dans tous les grands marchés européens : France, Royaume-Uni, Allemagne, Espagne, Italie, Pays-Bas, Belgique, Portugal et bien d'autres. Les détails complets sont disponibles lors du paiement."
+              },
+              {
+                "question": "How long does delivery take? / Quel est le délai de livraison ?",
+                "answer": "Standard delivery takes 5–10 business days across Europe. Luxe collection orders with custom options may take up to 3 weeks. You will receive tracking information as soon as your order is dispatched. / La livraison standard prend 5 à 10 jours ouvrables dans toute l'Europe. Les commandes de la collection Luxe avec options personnalisées peuvent prendre jusqu'à 3 semaines. Vous recevrez un numéro de suivi dès l'expédition."
+              },
+              {
+                "question": "How is my chair packaged? / Comment ma chaise est-elle emballée ?",
+                "answer": "Every chair is carefully packaged with protective foam and recycled cardboard to ensure it arrives in perfect condition. We take great care with every order. / Chaque chaise est soigneusement emballée avec de la mousse protectrice et du carton recyclé pour garantir une arrivée en parfait état. Nous prenons grand soin de chaque commande."
+              }
+            ]
+          },
+          {
+            "title": "Returns & Warranty / Retours et garantie",
+            "items": [
+              {
+                "question": "What is your return policy? / Quelle est votre politique de retour ?",
+                "answer": "We offer a 30-day return policy on all unused items in their original packaging. Please contact our team to arrange a return and we will make the process as smooth as possible. / Nous proposons une politique de retour de 30 jours sur tous les articles non utilisés dans leur emballage d'origine. Contactez notre équipe pour organiser un retour et nous rendrons le processus aussi simple que possible."
+              },
+              {
+                "question": "Do your chairs come with a warranty? / Vos chaises sont-elles garanties ?",
+                "answer": "Yes — all DeckChair Co. products come with a 2-year warranty covering manufacturing defects. The Luxe collection carries an extended 5-year warranty. / Oui — tous les produits DeckChair Co. sont couverts par une garantie de 2 ans contre les défauts de fabrication. La collection Luxe bénéficie d'une garantie étendue de 5 ans."
+              }
+            ]
+          },
+          {
+            "title": "Trade & Bulk Orders / Commandes professionnelles et en gros",
+            "items": [
+              {
+                "question": "Do you supply hotels, resorts, or retailers? / Fournissez-vous des hôtels, resorts ou détaillants ?",
+                "answer": "Absolutely. We work with hospitality businesses and retailers across Europe. Please contact us to discuss your requirements and we will provide a tailored quote and dedicated account support. / Absolument. Nous travaillons avec des établissements hôteliers et des détaillants dans toute l'Europe. Contactez-nous pour discuter de vos besoins et nous vous fournirons un devis personnalisé et un suivi de compte dédié."
+              },
+              {
+                "question": "Can I get custom branding on bulk orders? / Puis-je obtenir une personnalisation sur les commandes en gros ?",
+                "answer": "Yes — custom fabric colours, logo embroidery, and bespoke finishes are available for trade orders above a minimum quantity. Get in touch to discuss your options. / Oui — des coloris de tissu personnalisés, une broderie de logo et des finitions sur mesure sont disponibles pour les commandes professionnelles au-delà d'une quantité minimale. Contactez-nous pour discuter de vos options."
+              }
+            ]
+          }
+        ]
+      },
+      "settings": {
+        "maxWidth": "narrow",
+        "spacing": "relaxed"
+      }
+    },
+    {
+      "id": "cta-faqs",
+      "component": "CTABanner",
+      "variant": "inline",
+      "content": {
+        "heading": "Still have questions? / Vous avez encore des questions ?",
+        "subheading": "Our bilingual team is happy to help — in English or French. / Notre équipe bilingue est disponible pour vous aider — en anglais ou en français.",
+        "cta": {
+          "label": "Contact us / Nous contacter",
+          "href": "/contact"
+        }
+      },
+      "settings": {
+        "background": "primary"
+      }
+    }
+  ]
+}

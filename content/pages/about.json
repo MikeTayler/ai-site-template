@@ -1,16 +1,19 @@
 {
   "slug": "about",
-  "title": "About — Align Studio",
-  "description": "Our story: a boutique Hamilton pilates studio built on mindful movement, expert teaching, and community.",
+  "title": "About DeckChair Co. / À propos de DeckChair Co.",
+  "description": "Learn about DeckChair Co. — our story, our craft, and our passion for bringing premium outdoor comfort to Europe. / Découvrez DeckChair Co. — notre histoire, notre savoir-faire et notre passion pour le confort en plein air.",
   "sections": [
     {
       "id": "hero-about",
       "component": "Hero",
       "variant": "split",
       "content": {
-        "heading": "Movement with intention",
-        "subheading": "Align Studio was founded to offer reformer pilates that feels supportive, not performative — right here in Hamilton.",
-        "cta": { "label": "Explore classes", "href": "/services" }
+        "heading": "Crafted for the Art of Relaxation / Conçu pour l'art de la détente",
+        "subheading": "DeckChair Co. was founded on a simple belief: everyone deserves a beautiful place to sit and breathe outdoors. / DeckChair Co. a été fondé sur une conviction simple : chacun mérite un bel endroit pour s'asseoir et respirer en plein air.",
+        "cta": {
+          "label": "See our collection / Voir notre collection",
+          "href": "/services"
+        }
       },
       "settings": {
         "spacing": "relaxed",
@@ -23,40 +26,44 @@
       "component": "TextContent",
       "variant": "single-column",
       "content": {
-        "heading": "Our story",
+        "heading": "Our Story / Notre histoire",
         "paragraphs": [
-          "Align Studio began as a conversation between two instructors who had seen too many people leave studios feeling unseen. We wanted a space where small classes, clear progressions, and honest encouragement came before trends or quotas.",
-          "Today we are a tight-knit team teaching reformer pilates to busy professionals, new parents, athletes in recovery, and anyone curious about building strength from the inside out. Our approach blends classical principles with modern biomechanics — always with room to adapt.",
-          "Whether it is your first class or your five hundredth, we care that you leave feeling taller, steadier, and a little more at home in your body. That is what Align means to us."
+          "DeckChair Co. began with a long afternoon on a sun-warmed terrace and a frustration shared by many: why are so many outdoor chairs uncomfortable, flimsy, or simply ugly? We set out to change that. / DeckChair Co. est né d'un long après-midi sur une terrasse ensoleillée et d'une frustration partagée par beaucoup : pourquoi tant de chaises de jardin sont-elles inconfortables, fragiles ou tout simplement laides ? Nous avons décidé de changer cela.",
+          "Today we design and source premium deck chairs that bring together traditional European craftsmanship and modern materials — chairs that invite you to slow down, stay a little longer, and enjoy the moment. / Aujourd'hui, nous concevons et sélectionnons des chaises longues haut de gamme qui allient l'artisanat européen traditionnel aux matériaux modernes — des chaises qui vous invitent à ralentir, à rester un peu plus longtemps et à profiter de l'instant.",
+          "We are proud to serve customers across Europe in both English and French, and we are committed to sustainable sourcing, honest pricing, and warm, personal service at every step. / Nous sommes fiers de servir nos clients dans toute l'Europe en anglais et en français, avec un engagement envers un approvisionnement durable, des prix transparents et un service chaleureux et personnalisé à chaque étape."
         ]
       },
-      "settings": { "maxWidth": "narrow" }
+      "settings": {
+        "maxWidth": "narrow"
+      }
     },
     {
       "id": "team",
       "component": "TeamGrid",
       "variant": "headshots",
       "content": {
-        "heading": "Meet the instructors",
+        "heading": "Meet the Team / Notre équipe",
         "members": [
           {
-            "name": "Emma Rivers",
-            "role": "Founder & Lead Instructor",
-            "bio": "STOTT-certified with 12 years on the reformer. Emma specialises in spinal mobility and return-to-movement programmes after injury."
+            "name": "Clara Fontaine",
+            "role": "Founder & Creative Director / Fondatrice & Directrice créative",
+            "bio": "Clara's background in furniture design and her love of the French Riviera inspired the DeckChair Co. aesthetic. She oversees every product from concept to delivery. / Le parcours de Clara dans le design de mobilier et son amour pour la Côte d'Azur ont inspiré l'esthétique de DeckChair Co."
           },
           {
-            "name": "Hana Nguyen",
-            "role": "Senior Instructor",
-            "bio": "Former dancer turned pilates obsessive. Hana’s classes are musical, precise, and full of options for every level."
+            "name": "Tom Ashworth",
+            "role": "Head of Operations / Responsable des opérations",
+            "bio": "Tom ensures every order across Europe is handled with care and efficiency. He speaks English and French fluently and leads our customer experience team. / Tom veille à ce que chaque commande en Europe soit traitée avec soin et efficacité. Il parle couramment l'anglais et le français."
           },
           {
-            "name": "Lucy Patel",
-            "role": "Instructor",
-            "bio": "Pre- and postnatal trained. Lucy loves helping members reconnect to core strength with patience and humour."
+            "name": "Isabelle Morel",
+            "role": "Sustainability & Sourcing / Développement durable & Approvisionnement",
+            "bio": "Isabelle works directly with our European suppliers to ensure every material meets our environmental and quality standards. / Isabelle travaille directement avec nos fournisseurs européens pour garantir que chaque matériau répond à nos normes environnementales et de qualité."
           }
         ]
       },
-      "settings": { "maxWidth": "wide" }
+      "settings": {
+        "maxWidth": "wide"
+      }
     }
   ]
 }

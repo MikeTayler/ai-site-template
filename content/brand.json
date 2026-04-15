@@ -26,13 +26,22 @@
       "professional",
       "encouraging"
     ],
-    "industry": "Health and wellness",
-    "audience": "Women aged 25-45 interested in rehabilitation and wellness",
-    "valuePropositions": [],
+    "industry": "Outdoor furniture & leisure",
+    "audience": "European consumers and retailers seeking quality deck chairs for relaxation and outdoor living",
+    "valuePropositions": [
+      "Premium deck chairs crafted for comfort and style",
+      "Bilingual English and French service for European customers",
+      "Durable, weather-resistant designs for every outdoor setting"
+    ],
     "keywords": [
-      "balance",
-      "strength",
-      "mindful movement"
+      "comfort",
+      "relaxation",
+      "outdoor living",
+      "quality",
+      "style",
+      "détente",
+      "confort",
+      "plein air"
     ],
     "avoid": [
       "aggressive",

@@ -1,17 +1,17 @@
 {
   "slug": "services",
-  "title": "Services & Pricing — Align Studio",
-  "description": "Reformer classes, private sessions, and workshops at Align Studio Hamilton — timetables, pricing, and FAQs.",
+  "title": "Our Collection / Notre collection — DeckChair Co.",
+  "description": "Browse the DeckChair Co. range of premium deck chairs for gardens, terraces, and beaches across Europe. / Découvrez la gamme de chaises longues haut de gamme DeckChair Co. pour jardins, terrasses et plages.",
   "sections": [
     {
       "id": "hero-services",
       "component": "Hero",
       "variant": "centered",
       "content": {
-        "heading": "Classes designed around you",
-        "subheading": "From first steps on the reformer to dynamic flows — find the session that fits your week.",
+        "heading": "Find Your Perfect Deck Chair / Trouvez votre chaise longue idéale",
+        "subheading": "From classic striped canvas to contemporary teak — every chair in our collection is designed to make your outdoor time truly restorative. / Du canvas rayé classique au teck contemporain — chaque chaise est conçue pour rendre votre temps en plein air vraiment ressourçant.",
         "cta": {
-          "label": "Book via contact",
+          "label": "Order now / Commander",
           "href": "/contact"
         }
       },
@@ -22,15 +22,14 @@
       }
     },
     {
-      "id": "services-intro",
+      "id": "collection-intro",
       "component": "TextContent",
       "variant": "single-column",
       "content": {
-        "heading": "What we offer",
+        "heading": "Our Range / Notre gamme",
         "paragraphs": [
-          "Every class is taught on professional-grade reformers with props when needed — rings, boxes, and light weights to layer challenge without losing control.",
-          "New to pilates? Start with Reformer Fundamentals: four weeks of foundations so you feel confident on the machine. Returning or experienced? Try Open Level or our Strength & Flow sessions for a faster pace.",
-          "Private and duet sessions are available by appointment — ideal for rehab goals, pregnancy, or athletes wanting sport-specific work."
+          "Every DeckChair Co. chair is built to last and designed to delight. We offer three core collections — Classic, Contemporary, and Luxe — each available in a range of fabric colours and frame finishes to suit your outdoor space. / Chaque chaise DeckChair Co. est conçue pour durer et pour ravir. Nous proposons trois collections principales — Classic, Contemporary et Luxe — disponibles dans une gamme de coloris et de finitions.",
+          "Not sure which collection is right for you? Our bilingual team is happy to help — simply reach out via the contact page and we will guide you to the perfect choice for your garden, terrace, or beach. / Vous ne savez pas quelle collection vous convient ? Notre équipe bilingue est là pour vous aider — contactez-nous et nous vous guiderons vers le choix parfait pour votre jardin, terrasse ou plage."
         ]
       },
       "settings": {
@@ -42,50 +41,54 @@
       "component": "PricingTable",
       "variant": "tier-cards",
       "content": {
-        "heading": "Simple, transparent pricing",
+        "heading": "Simple, Transparent Pricing / Tarifs simples et transparents",
         "tiers": [
           {
-            "name": "Single Session",
-            "price": "$50",
-            "currency": "NZD",
+            "name": "Classic",
+            "price": "€89",
+            "currency": "EUR",
             "features": [
-              "One group reformer class",
-              "Expert instructor guidance",
-              "All equipment provided",
-              "Great for trying us out"
+              "FSC-certified hardwood frame / Cadre en bois certifié FSC",
+              "Classic striped canvas cover / Housse en canvas rayé classique",
+              "Foldable & lightweight / Pliable et léger",
+              "Available in 6 colour options / Disponible en 6 coloris",
+              "Perfect for gardens & terraces / Idéal pour jardins et terrasses"
             ],
             "cta": {
-              "label": "Book a session",
+              "label": "Order now / Commander",
               "href": "/contact"
             }
           },
           {
-            "name": "Monthly Membership",
-            "price": "$250",
-            "currency": "NZD / month",
+            "name": "Contemporary",
+            "price": "€149",
+            "currency": "EUR",
             "features": [
-              "Unlimited group classes for the month",
-              "Best value for regular movers",
-              "Priority booking window",
-              "Flexible — no long-term lock-in"
+              "Everything in Classic / Tout ce qui est inclus dans Classic",
+              "Premium teak or powder-coated steel frame / Cadre en teck ou acier laqué",
+              "Weather-resistant Sunbrella® fabric / Tissu Sunbrella® résistant aux intempéries",
+              "Adjustable backrest / Dossier réglable",
+              "Ideal for year-round outdoor use / Idéal pour une utilisation extérieure toute l'année"
             ],
             "cta": {
-              "label": "Get started",
+              "label": "Order now / Commander",
               "href": "/contact"
             }
           },
           {
-            "name": "Life Membership",
-            "price": "$5,000",
-            "currency": "NZD one-time",
+            "name": "Luxe",
+            "price": "€249",
+            "currency": "EUR",
             "features": [
-              "Unlimited group classes for life",
-              "Permanent priority booking",
-              "Exclusive member events & workshops",
-              "Complimentary annual private session"
+              "Everything in Contemporary / Tout ce qui est inclus dans Contemporary",
+              "Hand-finished solid teak frame / Cadre en teck massif fini à la main",
+              "Custom fabric & colour options / Tissu et coloris personnalisables",
+              "Integrated side table / Table d'appoint intégrée",
+              "Priority delivery across Europe / Livraison prioritaire dans toute l'Europe",
+              "The ultimate outdoor indulgence / Le summum du confort en plein air"
             ],
             "cta": {
-              "label": "Enquire now",
+              "label": "Order now / Commander",
               "href": "/contact"
             }
           }
@@ -100,11 +103,11 @@
       "component": "TextContent",
       "variant": "single-column",
       "content": {
-        "heading": "Not sure which option suits you?",
+        "heading": "Not sure which to choose? / Vous hésitez ?",
         "paragraphs": [
-          "If you are just beginning your pilates journey, a single session is a wonderful way to experience the reformer and meet our team before committing to anything more. If you already know you want to make mindful movement a regular part of your week, the monthly membership offers the best value — and the consistency that helps you feel real results.",
-          "For those who have found their home at Align and want to commit to a lifetime of balanced, mindful movement, our Life Membership is a one-time investment in your long-term wellbeing. Reach out and we will be happy to walk you through what it includes.",
-          "We are always happy to chat through what makes sense for your goals and schedule. Just reach out and we will point you in the right direction."
+          "The Classic is a wonderful starting point — timeless, comfortable, and great value. If you want something that will stand up to all seasons and look stunning doing it, the Contemporary is our most popular choice. / La Classic est un excellent point de départ — intemporelle, confortable et d'un excellent rapport qualité-prix. Si vous souhaitez quelque chose qui résiste à toutes les saisons avec élégance, la Contemporary est notre choix le plus populaire.",
+          "For those who want the very best — a chair that becomes a cherished part of your outdoor space for years to come — the Luxe collection is crafted to impress. Custom options are available on request. / Pour ceux qui veulent le meilleur — une chaise qui devient une pièce précieuse de votre espace extérieur pour les années à venir — la collection Luxe est faite pour vous. Des options personnalisées sont disponibles sur demande.",
+          "Our team is always happy to help you choose. Reach out in English or French and we will find the right fit for your space and budget. / Notre équipe est toujours disponible pour vous aider. Contactez-nous en anglais ou en français et nous trouverons la solution adaptée à votre espace et à votre budget."
         ]
       },
       "settings": {
@@ -116,20 +119,20 @@
       "component": "Stats",
       "variant": "with-icons",
       "content": {
-        "heading": "By the numbers",
+        "heading": "By the numbers / En chiffres",
         "items": [
           {
-            "label": "Max clients per class",
-            "value": "8"
-          },
-          {
-            "label": "Instructors",
-            "value": "3",
+            "label": "Colour & fabric options / Options de coloris et tissus",
+            "value": "24",
             "suffix": "+"
           },
           {
-            "label": "Years serving Hamilton",
-            "value": "6",
+            "label": "European countries served / Pays européens desservis",
+            "value": "18"
+          },
+          {
+            "label": "Years of craftsmanship / Années de savoir-faire",
+            "value": "15",
             "suffix": "+"
           }
         ]
@@ -143,19 +146,19 @@
       "component": "FAQAccordion",
       "variant": "simple",
       "content": {
-        "heading": "Common questions",
+        "heading": "Common questions / Questions fréquentes",
         "faqs": [
           {
-            "question": "What should I wear?",
-            "answer": "Grip socks are required (we sell them at reception). Wear comfortable leggings or shorts and a top you can move in. Avoid zips or buckles that could catch the equipment."
+            "question": "How long does delivery take? / Quel est le délai de livraison ?",
+            "answer": "Standard delivery across Europe takes 5–10 business days. Luxe collection orders with custom options may take up to 3 weeks. You will receive tracking information as soon as your order ships. / La livraison standard en Europe prend 5 à 10 jours ouvrables. Les commandes de la collection Luxe avec options personnalisées peuvent prendre jusqu'à 3 semaines. Vous recevrez un numéro de suivi dès l'expédition."
           },
           {
-            "question": "Do I need experience?",
-            "answer": "No — start with Reformer Fundamentals or book a private intro. We will teach you how to set the springs, use the footbar, and move safely before you join mixed classes."
+            "question": "Can I order fabric samples? / Puis-je commander des échantillons de tissu ?",
+            "answer": "Yes — we offer a free fabric sample service. Contact us with your preferred collection and we will send swatches so you can choose with confidence. / Oui — nous proposons un service d'échantillons gratuits. Contactez-nous en indiquant votre collection préférée et nous vous enverrons des échantillons pour choisir en toute confiance."
           },
           {
-            "question": "How do I book or cancel?",
-            "answer": "Contact us by email or phone to reserve your spot. Cancellations with more than 12 hours' notice can be moved to another date; late cancels may be charged per our membership terms."
+            "question": "Do you offer trade or bulk pricing? / Proposez-vous des tarifs professionnels ou en gros ?",
+            "answer": "Absolutely. We supply hotels, resorts, beach clubs, and retailers across Europe. Please contact us to discuss your requirements and we will provide a tailored quote. / Absolument. Nous fournissons des hôtels, resorts, clubs de plage et détaillants dans toute l'Europe. Contactez-nous pour discuter de vos besoins et nous vous fournirons un devis personnalisé."
           }
         ]
       },
@@ -168,10 +171,10 @@
       "component": "CTABanner",
       "variant": "inline",
       "content": {
-        "heading": "Questions about the right option for you?",
-        "subheading": "We are happy to recommend a path before you commit.",
+        "heading": "Need help choosing? / Besoin d'aide pour choisir ?",
+        "subheading": "Our friendly team is here in English and French — we will help you find the perfect chair. / Notre équipe est disponible en anglais et en français pour vous aider à trouver la chaise idéale.",
         "cta": {
-          "label": "Message the studio",
+          "label": "Get in touch / Nous contacter",
           "href": "/contact"
         }
       },

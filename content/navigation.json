@@ -1,20 +1,20 @@
 {
-  "siteTitle": "Align Studio",
+  "siteTitle": "DeckChair Co.",
   "items": [
     {
-      "label": "Home",
+      "label": "Home / Accueil",
       "href": "/"
     },
     {
-      "label": "About",
-      "href": "/about"
-    },
-    {
-      "label": "Services",
+      "label": "Collection",
       "href": "/services"
     },
     {
-      "label": "FAQs",
+      "label": "About / À propos",
+      "href": "/about"
+    },
+    {
+      "label": "FAQ",
       "href": "/faqs"
     },
     {
@@ -23,49 +23,49 @@
     }
   ],
   "cta": {
-    "label": "Book a Class",
-    "href": "/contact"
+    "label": "Shop Now / Acheter",
+    "href": "/services"
   },
   "footer": {
-    "copyrightText": "© 2025 Align Studio. All rights reserved.",
-    "tagline": "Small-group reformer pilates in the heart of Hamilton.",
+    "copyrightText": "© 2025 DeckChair Co. All rights reserved. / Tous droits réservés.",
+    "tagline": "Premium deck chairs for European outdoor living. / Chaises longues de qualité pour la vie en plein air en Europe.",
     "columns": [
       {
-        "heading": "Studio",
+        "heading": "Company / Entreprise",
         "links": [
           {
-            "label": "About us",
+            "label": "About us / À propos",
             "href": "/about"
           },
           {
-            "label": "Our team",
-            "href": "/about#team"
+            "label": "Our story / Notre histoire",
+            "href": "/about"
           },
           {
-            "label": "Class types",
+            "label": "Collection",
             "href": "/services"
           }
         ]
       },
       {
-        "heading": "Visit",
+        "heading": "Help / Aide",
         "links": [
           {
-            "label": "Contact & booking",
+            "label": "Contact",
             "href": "/contact"
           },
           {
-            "label": "Parking & access",
-            "href": "/contact#visit"
+            "label": "FAQ",
+            "href": "/faqs"
           },
           {
-            "label": "FAQs",
+            "label": "Shipping / Livraison",
             "href": "/faqs"
           }
         ]
       },
       {
-        "heading": "Connect",
+        "heading": "Connect / Nous suivre",
         "links": [
           {
             "label": "Instagram",
@@ -73,7 +73,7 @@
           },
           {
             "label": "Email",
-            "href": "mailto:hello@alignstudio.co.nz"
+            "href": "mailto:hello@deckchairco.eu"
           }
         ]
       }

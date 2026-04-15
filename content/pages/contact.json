@@ -1,16 +1,19 @@
 {
   "slug": "contact",
-  "title": "Contact — Align Studio Hamilton",
-  "description": "Book a class, ask a question, or plan your visit to Align Studio in Hamilton.",
+  "title": "Contact DeckChair Co. / Contactez DeckChair Co.",
+  "description": "Get in touch with DeckChair Co. for orders, trade enquiries, or any questions — in English or French. / Contactez DeckChair Co. pour vos commandes, demandes professionnelles ou toute question — en anglais ou en français.",
   "sections": [
     {
       "id": "hero-contact",
       "component": "Hero",
       "variant": "full-bleed",
       "content": {
-        "heading": "We would love to hear from you",
-        "subheading": "Booking, waitlists, or a quick question — reach out and we will respond within one business day.",
-        "cta": { "label": "Send a message", "href": "mailto:hello@alignstudio.co.nz" }
+        "heading": "We'd love to hear from you / Nous serions ravis de vous entendre",
+        "subheading": "Whether you have a question about our collection, need help choosing, or want to discuss a trade order — reach out in English or French and we will respond within one business day. / Que vous ayez une question sur notre collection, besoin d'aide pour choisir ou souhaitiez discuter d'une commande professionnelle — contactez-nous en anglais ou en français.",
+        "cta": {
+          "label": "Send a message / Envoyer un message",
+          "href": "mailto:hello@deckchairco.eu"
+        }
       },
       "settings": {
         "spacing": "normal",
@@ -19,62 +22,63 @@
       }
     },
     {
-      "id": "visit-info",
-      "component": "TextContent",
-      "variant": "with-sidebar",
-      "content": {
-        "heading": "Visit the studio",
-        "paragraphs": [
-          "Align Studio lives on the first floor above the Riverside retail strip — look for the green door and intercom. Street parking is available on Victoria Street; covered parking is two blocks away at the central car park.",
-          "The space is shoe-free: we have lockers for bags and a filtered water station. Arrive five minutes early on your first visit so we can show you the reformer and any props for class."
-        ],
-        "asideTitle": "Opening hours",
-        "asideParagraphs": [
-          "Monday–Friday: 6:30am – 8:00pm",
-          "Saturday: 8:00am – 2:00pm",
-          "Sunday: Closed",
-          "Public holidays: limited timetable — check Instagram for updates."
-        ]
-      },
-      "settings": { "maxWidth": "wide" }
-    },
-    {
       "id": "contact-form",
       "component": "ContactForm",
       "variant": "simple",
       "content": {
-        "heading": "Send a message",
-        "description": "Tell us whether you are new to pilates, interested in a specific class, or looking for private sessions — we will reply with next steps.",
-        "submitLabel": "Send message",
-        "nameLabel": "Name",
+        "heading": "Send us a message / Envoyez-nous un message",
+        "description": "Tell us about your order, your outdoor space, or your trade enquiry — we reply in English or French. / Parlez-nous de votre commande, de votre espace extérieur ou de votre demande professionnelle — nous répondons en anglais ou en français.",
+        "submitLabel": "Send message / Envoyer",
+        "nameLabel": "Name / Nom",
         "emailLabel": "Email",
-        "messageLabel": "How can we help?"
+        "messageLabel": "How can we help? / Comment pouvons-nous vous aider ?"
       },
-      "settings": { "maxWidth": "narrow" }
+      "settings": {
+        "maxWidth": "narrow"
+      }
     },
     {
       "id": "contact-stats",
       "component": "Stats",
       "variant": "featured",
       "content": {
-        "heading": "Typical response time",
+        "heading": "Our commitment to you / Notre engagement envers vous",
         "items": [
-          { "label": "Email replies", "value": "24", "suffix": " hrs" },
-          { "label": "New member onboarding", "value": "48", "suffix": " hrs" }
+          {
+            "label": "Response time / Délai de réponse",
+            "value": "24",
+            "suffix": " hrs"
+          },
+          {
+            "label": "Languages supported / Langues disponibles",
+            "value": "2"
+          },
+          {
+            "label": "Countries we deliver to / Pays de livraison",
+            "value": "18",
+            "suffix": "+"
+          }
         ]
       },
-      "settings": { "maxWidth": "wide" }
+      "settings": {
+        "maxWidth": "wide"
+      }
     },
     {
       "id": "cta-contact",
       "component": "CTABanner",
       "variant": "with-image",
       "content": {
-        "heading": "Prefer to talk?",
-        "subheading": "Call us during opening hours or DM us on Instagram — same friendly team.",
-        "cta": { "label": "Email hello@alignstudio.co.nz", "href": "mailto:hello@alignstudio.co.nz" }
+        "heading": "Prefer to email directly? / Préférez-vous envoyer un e-mail directement ?",
+        "subheading": "Our bilingual team is always happy to help — in English or French. / Notre équipe bilingue est toujours disponible pour vous aider — en anglais ou en français.",
+        "cta": {
+          "label": "Email hello@deckchairco.eu",
+          "href": "mailto:hello@deckchairco.eu"
+        }
       },
-      "settings": { "background": "neutral" }
+      "settings": {
+        "background": "neutral"
+      }
     }
   ]
 }
