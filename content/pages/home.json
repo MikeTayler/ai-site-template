@@ -8,7 +8,7 @@
       "component": "Hero",
       "variant": "centered",
       "content": {
-        "heading": "Sit Back. Relax. Enjoy. / Asseyez-vous. Détendez-vous. Profitez.",
+        "heading": "Hello world",
         "subheading": "DeckChair Co. brings beautifully crafted, weather-resistant deck chairs to homes, gardens, and terraces across Europe. Comfort and style, wherever the sun shines. / Des chaises longues élégantes et résistantes aux intempéries pour vos jardins et terrasses partout en Europe.",
         "cta": {
           "label": "Explore the Collection / Découvrir la collection",
