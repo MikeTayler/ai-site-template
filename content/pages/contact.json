@@ -1,7 +1,7 @@
 {
   "slug": "contact",
-  "title": "Contact DeckChair Co. / Contactez DeckChair Co.",
-  "description": "Get in touch with DeckChair Co. for orders, trade enquiries, or any questions — in English or French. / Contactez DeckChair Co. pour vos commandes, demandes professionnelles ou toute question — en anglais ou en français.",
+  "title": "Contact Hamac & Co. / Contactez Hamac & Co.",
+  "description": "Get in touch with Hamac & Co. for orders, trade enquiries, or any questions — in English or French. / Contactez Hamac & Co. pour vos commandes, demandes professionnelles ou toute question — en anglais ou en français.",
   "sections": [
     {
       "id": "hero-contact",
@@ -9,10 +9,10 @@
       "variant": "full-bleed",
       "content": {
         "heading": "We'd love to hear from you / Nous serions ravis de vous entendre",
-        "subheading": "Whether you have a question about our collection, need help choosing, or want to discuss a trade order — reach out in English or French and we will respond within one business day. / Que vous ayez une question sur notre collection, besoin d'aide pour choisir ou souhaitiez discuter d'une commande professionnelle — contactez-nous en anglais ou en français.",
+        "subheading": "Whether you have a question about our hammock collection, need help choosing, or want to discuss a trade order — reach out in English or French and we will respond within one business day. / Que vous ayez une question sur notre collection de hamacs, besoin d'aide pour choisir ou souhaitiez discuter d'une commande professionnelle — contactez-nous en anglais ou en français.",
         "cta": {
           "label": "Send a message / Envoyer un message",
-          "href": "mailto:hello@deckchairco.eu"
+          "href": "mailto:hello@hamacandco.eu"
         }
       },
       "settings": {
@@ -72,8 +72,8 @@
         "heading": "Prefer to email directly? / Préférez-vous envoyer un e-mail directement ?",
         "subheading": "Our bilingual team is always happy to help — in English or French. / Notre équipe bilingue est toujours disponible pour vous aider — en anglais ou en français.",
         "cta": {
-          "label": "Email hello@deckchairco.eu",
-          "href": "mailto:hello@deckchairco.eu"
+          "label": "Email hello@hamacandco.eu",
+          "href": "mailto:hello@hamacandco.eu"
         }
       },
       "settings": {

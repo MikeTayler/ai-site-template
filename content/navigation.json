@@ -1,5 +1,5 @@
 {
-  "siteTitle": "DeckChair Co.",
+  "siteTitle": "Hamac & Co.",
   "items": [
     {
       "label": "Home / Accueil",
@@ -27,8 +27,8 @@
     "href": "/services"
   },
   "footer": {
-    "copyrightText": "© 2025 DeckChair Co. All rights reserved. / Tous droits réservés.",
-    "tagline": "Premium deck chairs for European outdoor living. / Chaises longues de qualité pour la vie en plein air en Europe.",
+    "copyrightText": "© 2025 Hamac & Co. All rights reserved. / Tous droits réservés.",
+    "tagline": "Premium hammocks for European outdoor living. / Hamacs de qualité pour la vie en plein air en Europe.",
     "columns": [
       {
         "heading": "Company / Entreprise",
@@ -73,7 +73,7 @@
           },
           {
             "label": "Email",
-            "href": "mailto:hello@deckchairco.eu"
+            "href": "mailto:hello@hamacandco.eu"
           }
         ]
       }

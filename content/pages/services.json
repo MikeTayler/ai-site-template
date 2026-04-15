@@ -1,15 +1,15 @@
 {
   "slug": "services",
-  "title": "Our Collection / Notre collection — DeckChair Co.",
-  "description": "Browse the DeckChair Co. range of premium deck chairs for gardens, terraces, and beaches across Europe. / Découvrez la gamme de chaises longues haut de gamme DeckChair Co. pour jardins, terrasses et plages.",
+  "title": "Our Collection / Notre collection — Hamac & Co.",
+  "description": "Browse the Hamac & Co. range of premium hammocks for gardens, terraces, and beaches across Europe. / Découvrez la gamme de hamacs haut de gamme Hamac & Co. pour jardins, terrasses et plages.",
   "sections": [
     {
       "id": "hero-services",
       "component": "Hero",
       "variant": "centered",
       "content": {
-        "heading": "Find Your Perfect Deck Chair / Trouvez votre chaise longue idéale",
-        "subheading": "From classic striped canvas to contemporary teak — every chair in our collection is designed to make your outdoor time truly restorative. / Du canvas rayé classique au teck contemporain — chaque chaise est conçue pour rendre votre temps en plein air vraiment ressourçant.",
+        "heading": "Find Your Perfect Hammock / Trouvez votre hamac idéal",
+        "subheading": "From classic woven cotton to contemporary weather-resistant designs — every hammock in our collection is crafted to make your outdoor time truly restorative. / Du coton tissé classique aux designs contemporains résistants aux intempéries — chaque hamac est conçu pour rendre votre temps en plein air vraiment ressourçant.",
         "cta": {
           "label": "Order now / Commander",
           "href": "/contact"
@@ -28,8 +28,8 @@
       "content": {
         "heading": "Our Range / Notre gamme",
         "paragraphs": [
-          "Every DeckChair Co. chair is built to last and designed to delight. We offer three core collections — Classic, Contemporary, and Luxe — each available in a range of fabric colours and frame finishes to suit your outdoor space. / Chaque chaise DeckChair Co. est conçue pour durer et pour ravir. Nous proposons trois collections principales — Classic, Contemporary et Luxe — disponibles dans une gamme de coloris et de finitions.",
-          "Not sure which collection is right for you? Our bilingual team is happy to help — simply reach out via the contact page and we will guide you to the perfect choice for your garden, terrace, or beach. / Vous ne savez pas quelle collection vous convient ? Notre équipe bilingue est là pour vous aider — contactez-nous et nous vous guiderons vers le choix parfait pour votre jardin, terrasse ou plage."
+          "Every Hamac & Co. hammock is built to last and designed to delight. We offer three core collections — Classic, Contemporary, and Luxe — each available in a range of fabric colours and finishes to suit your outdoor space. / Chaque hamac Hamac & Co. est conçu pour durer et pour ravir. Nous proposons trois collections principales — Classic, Contemporary et Luxe — disponibles dans une gamme de coloris et de finitions.",
+          "Not sure which collection is right for you? Our bilingual team is happy to help — simply reach out via the contact page and we will guide you to the perfect hammock for your garden, terrace, or beach. / Vous ne savez pas quelle collection vous convient ? Notre équipe bilingue est là pour vous aider — contactez-nous et nous vous guiderons vers le choix parfait pour votre jardin, terrasse ou plage."
         ]
       },
       "settings": {
@@ -45,12 +45,12 @@
         "tiers": [
           {
             "name": "Classic",
-            "price": "€89",
+            "price": "€79",
             "currency": "EUR",
             "features": [
-              "FSC-certified hardwood frame / Cadre en bois certifié FSC",
-              "Classic striped canvas cover / Housse en canvas rayé classique",
-              "Foldable & lightweight / Pliable et léger",
+              "Sustainably sourced cotton / Coton issu de sources durables",
+              "Traditional woven pattern / Motif tissé traditionnel",
+              "Includes hanging hardware / Quincaillerie d'accrochage incluse",
               "Available in 6 colour options / Disponible en 6 coloris",
               "Perfect for gardens & terraces / Idéal pour jardins et terrasses"
             ],
@@ -61,13 +61,13 @@
           },
           {
             "name": "Contemporary",
-            "price": "€149",
+            "price": "€139",
             "currency": "EUR",
             "features": [
               "Everything in Classic / Tout ce qui est inclus dans Classic",
-              "Premium teak or powder-coated steel frame / Cadre en teck ou acier laqué",
               "Weather-resistant Sunbrella® fabric / Tissu Sunbrella® résistant aux intempéries",
-              "Adjustable backrest / Dossier réglable",
+              "Powder-coated steel or teak spreader bars / Barres en acier laqué ou teck",
+              "Adjustable hanging length / Longueur d'accrochage réglable",
               "Ideal for year-round outdoor use / Idéal pour une utilisation extérieure toute l'année"
             ],
             "cta": {
@@ -77,13 +77,13 @@
           },
           {
             "name": "Luxe",
-            "price": "€249",
+            "price": "€229",
             "currency": "EUR",
             "features": [
               "Everything in Contemporary / Tout ce qui est inclus dans Contemporary",
-              "Hand-finished solid teak frame / Cadre en teck massif fini à la main",
+              "Hand-finished premium cotton rope / Corde de coton premium finie à la main",
               "Custom fabric & colour options / Tissu et coloris personnalisables",
-              "Integrated side table / Table d'appoint intégrée",
+              "Includes freestanding steel stand / Support autoportant en acier inclus",
               "Priority delivery across Europe / Livraison prioritaire dans toute l'Europe",
               "The ultimate outdoor indulgence / Le summum du confort en plein air"
             ],
@@ -106,7 +106,7 @@
         "heading": "Not sure which to choose? / Vous hésitez ?",
         "paragraphs": [
           "The Classic is a wonderful starting point — timeless, comfortable, and great value. If you want something that will stand up to all seasons and look stunning doing it, the Contemporary is our most popular choice. / La Classic est un excellent point de départ — intemporelle, confortable et d'un excellent rapport qualité-prix. Si vous souhaitez quelque chose qui résiste à toutes les saisons avec élégance, la Contemporary est notre choix le plus populaire.",
-          "For those who want the very best — a chair that becomes a cherished part of your outdoor space for years to come — the Luxe collection is crafted to impress. Custom options are available on request. / Pour ceux qui veulent le meilleur — une chaise qui devient une pièce précieuse de votre espace extérieur pour les années à venir — la collection Luxe est faite pour vous. Des options personnalisées sont disponibles sur demande.",
+          "For those who want the very best — a hammock that becomes a cherished part of your outdoor space for years to come — the Luxe collection is crafted to impress. Custom options are available on request. / Pour ceux qui veulent le meilleur — un hamac qui devient une pièce précieuse de votre espace extérieur pour les années à venir — la collection Luxe est faite pour vous. Des options personnalisées sont disponibles sur demande.",
           "Our team is always happy to help you choose. Reach out in English or French and we will find the right fit for your space and budget. / Notre équipe est toujours disponible pour vous aider. Contactez-nous en anglais ou en français et nous trouverons la solution adaptée à votre espace et à votre budget."
         ]
       },
@@ -122,7 +122,7 @@
         "heading": "By the numbers / En chiffres",
         "items": [
           {
-            "label": "Colour & fabric options / Options de coloris et tissus",
+            "label": "Fabric & colour options / Options de coloris et tissus",
             "value": "24",
             "suffix": "+"
           },
@@ -150,7 +150,7 @@
         "faqs": [
           {
             "question": "How long does delivery take? / Quel est le délai de livraison ?",
-            "answer": "Standard delivery across Europe takes 5–10 business days. Luxe collection orders with custom options may take up to 3 weeks. You will receive tracking information as soon as your order ships. / La livraison standard en Europe prend 5 à 10 jours ouvrables. Les commandes de la collection Luxe avec options personnalisées peuvent prendre jusqu'à 3 semaines. Vous recevrez un numéro de suivi dès l'expédition."
+            "answer": "Standard delivery across Europe takes 5–10 business days. Luxe collection orders with custom options may take up to 3 weeks. You will receive tracking information as soon as your order ships. / La livraison standard en Europe prend 5 à 10 jours ouvrables. Les commandes de la collection Luxe avec options personnalisées peuvent prendre jusqu'à 3 semaines."
           },
           {
             "question": "Can I order fabric samples? / Puis-je commander des échantillons de tissu ?",
@@ -172,7 +172,7 @@
       "variant": "inline",
       "content": {
         "heading": "Need help choosing? / Besoin d'aide pour choisir ?",
-        "subheading": "Our friendly team is here in English and French — we will help you find the perfect chair. / Notre équipe est disponible en anglais et en français pour vous aider à trouver la chaise idéale.",
+        "subheading": "Our friendly team is here in English and French — we will help you find the perfect hammock. / Notre équipe est disponible en anglais et en français pour vous aider à trouver le hamac idéal.",
         "cta": {
           "label": "Get in touch / Nous contacter",
           "href": "/contact"

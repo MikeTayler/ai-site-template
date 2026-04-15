@@ -1,7 +1,7 @@
 {
   "slug": "about",
-  "title": "About DeckChair Co. / À propos de DeckChair Co.",
-  "description": "Learn about DeckChair Co. — our story, our craft, and our passion for bringing premium outdoor comfort to Europe. / Découvrez DeckChair Co. — notre histoire, notre savoir-faire et notre passion pour le confort en plein air.",
+  "title": "About Hamac & Co. / À propos de Hamac & Co.",
+  "description": "Learn about Hamac & Co. — our story, our craft, and our passion for bringing premium hammocks to outdoor living across Europe. / Découvrez Hamac & Co. — notre histoire, notre savoir-faire et notre passion pour le confort en plein air.",
   "sections": [
     {
       "id": "hero-about",
@@ -9,7 +9,7 @@
       "variant": "split",
       "content": {
         "heading": "Crafted for the Art of Relaxation / Conçu pour l'art de la détente",
-        "subheading": "DeckChair Co. was founded on a simple belief: everyone deserves a beautiful place to sit and breathe outdoors. / DeckChair Co. a été fondé sur une conviction simple : chacun mérite un bel endroit pour s'asseoir et respirer en plein air.",
+        "subheading": "Hamac & Co. was founded on a simple belief: everyone deserves a beautiful place to rest and breathe outdoors. / Hamac & Co. a été fondé sur une conviction simple : chacun mérite un bel endroit pour se reposer et respirer en plein air.",
         "cta": {
           "label": "See our collection / Voir notre collection",
           "href": "/services"
@@ -28,8 +28,8 @@
       "content": {
         "heading": "Our Story / Notre histoire",
         "paragraphs": [
-          "DeckChair Co. began with a long afternoon on a sun-warmed terrace and a frustration shared by many: why are so many outdoor chairs uncomfortable, flimsy, or simply ugly? We set out to change that. / DeckChair Co. est né d'un long après-midi sur une terrasse ensoleillée et d'une frustration partagée par beaucoup : pourquoi tant de chaises de jardin sont-elles inconfortables, fragiles ou tout simplement laides ? Nous avons décidé de changer cela.",
-          "Today we design and source premium deck chairs that bring together traditional European craftsmanship and modern materials — chairs that invite you to slow down, stay a little longer, and enjoy the moment. / Aujourd'hui, nous concevons et sélectionnons des chaises longues haut de gamme qui allient l'artisanat européen traditionnel aux matériaux modernes — des chaises qui vous invitent à ralentir, à rester un peu plus longtemps et à profiter de l'instant.",
+          "Hamac & Co. began with a long afternoon swaying gently between two old olive trees and a frustration shared by many: why are so many hammocks uncomfortable, poorly made, or simply uninspiring? We set out to change that. / Hamac & Co. est né d'un long après-midi à se balancer doucement entre deux vieux oliviers et d'une frustration partagée par beaucoup : pourquoi tant de hamacs sont-ils inconfortables, mal fabriqués ou tout simplement sans âme ? Nous avons décidé de changer cela.",
+          "Today we design and source premium hammocks that bring together traditional European craftsmanship and modern materials — hammocks that invite you to slow down, stay a little longer, and enjoy the moment. / Aujourd'hui, nous concevons et sélectionnons des hamacs haut de gamme qui allient l'artisanat européen traditionnel aux matériaux modernes — des hamacs qui vous invitent à ralentir, à rester un peu plus longtemps et à profiter de l'instant.",
           "We are proud to serve customers across Europe in both English and French, and we are committed to sustainable sourcing, honest pricing, and warm, personal service at every step. / Nous sommes fiers de servir nos clients dans toute l'Europe en anglais et en français, avec un engagement envers un approvisionnement durable, des prix transparents et un service chaleureux et personnalisé à chaque étape."
         ]
       },
@@ -47,7 +47,7 @@
           {
             "name": "Clara Fontaine",
             "role": "Founder & Creative Director / Fondatrice & Directrice créative",
-            "bio": "Clara's background in furniture design and her love of the French Riviera inspired the DeckChair Co. aesthetic. She oversees every product from concept to delivery. / Le parcours de Clara dans le design de mobilier et son amour pour la Côte d'Azur ont inspiré l'esthétique de DeckChair Co."
+            "bio": "Clara's background in textile design and her love of the French Riviera inspired the Hamac & Co. aesthetic. She oversees every product from concept to delivery. / Le parcours de Clara dans le design textile et son amour pour la Côte d'Azur ont inspiré l'esthétique de Hamac & Co."
           },
           {
             "name": "Tom Ashworth",

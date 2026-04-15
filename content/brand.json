@@ -27,9 +27,9 @@
       "encouraging"
     ],
     "industry": "Outdoor furniture & leisure",
-    "audience": "European consumers and retailers seeking quality deck chairs for relaxation and outdoor living",
+    "audience": "European consumers and retailers seeking quality hammocks for relaxation and outdoor living",
     "valuePropositions": [
-      "Premium deck chairs crafted for comfort and style",
+      "Premium hammocks crafted for comfort and style",
       "Bilingual English and French service for European customers",
       "Durable, weather-resistant designs for every outdoor setting"
     ],
@@ -41,7 +41,9 @@
       "style",
       "détente",
       "confort",
-      "plein air"
+      "plein air",
+      "hammock",
+      "hamac"
     ],
     "avoid": [
       "aggressive",

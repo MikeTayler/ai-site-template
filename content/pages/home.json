@@ -1,15 +1,15 @@
 {
   "slug": "home",
-  "title": "DeckChair Co. — Premium Deck Chairs for European Outdoor Living",
-  "description": "DeckChair Co. offers beautifully crafted, weather-resistant deck chairs for European homes, gardens, and terraces. Shop our collection. / Chaises longues de qualité pour jardins et terrasses européens.",
+  "title": "Hamac & Co. — Premium Hammocks for European Outdoor Living",
+  "description": "Hamac & Co. offers beautifully crafted, weather-resistant hammocks for European homes, gardens, and terraces. Shop our collection. / Hamacs de qualité pour jardins et terrasses européens.",
   "sections": [
     {
       "id": "hero-home",
       "component": "Hero",
       "variant": "centered",
       "content": {
-        "heading": "Hello world",
-        "subheading": "DeckChair Co. brings beautifully crafted, weather-resistant deck chairs to homes, gardens, and terraces across Europe. Comfort and style, wherever the sun shines. / Des chaises longues élégantes et résistantes aux intempéries pour vos jardins et terrasses partout en Europe.",
+        "heading": "Swing Into Pure Relaxation / Bercez-vous dans la détente",
+        "subheading": "Hamac & Co. brings beautifully crafted, weather-resistant hammocks to homes, gardens, and terraces across Europe. Comfort and style, wherever the sun shines. / Des hamacs élégants et résistants aux intempéries pour vos jardins et terrasses partout en Europe.",
         "cta": {
           "label": "Explore the Collection / Découvrir la collection",
           "href": "/services"
@@ -26,31 +26,31 @@
       "component": "FeatureGrid",
       "variant": "three-column",
       "content": {
-        "heading": "Why Choose DeckChair Co.? / Pourquoi choisir DeckChair Co. ?",
+        "heading": "Why Choose Hamac & Co.? / Pourquoi choisir Hamac & Co. ?",
         "items": [
           {
             "title": "Exceptional Comfort / Confort exceptionnel",
-            "description": "Every chair is ergonomically designed for long, leisurely afternoons. Sink in, breathe out, and let the day slow down. / Chaque chaise est conçue pour de longues après-midis de détente. Installez-vous et laissez le temps s'arrêter."
+            "description": "Every hammock is designed to cradle you in perfect comfort for long, leisurely afternoons. Sink in, breathe out, and let the day slow down. / Chaque hamac est conçu pour vous envelopper dans un confort parfait. Installez-vous et laissez le temps s'arrêter."
           },
           {
             "title": "Weather-Resistant Materials / Matériaux résistants aux intempéries",
-            "description": "Our frames and fabrics are built to handle sun, rain, and sea air — so your deck chair stays beautiful season after season. / Nos structures et tissus résistent au soleil, à la pluie et à l'air marin, saison après saison."
+            "description": "Our fabrics and frames are built to handle sun, rain, and sea air — so your hammock stays beautiful season after season. / Nos tissus et structures résistent au soleil, à la pluie et à l'air marin, saison après saison."
           },
           {
             "title": "Timeless European Style / Style européen intemporel",
-            "description": "Clean lines, thoughtful proportions, and a palette inspired by the Mediterranean coast. A deck chair that looks as good as it feels. / Des lignes épurées et une palette inspirée de la côte méditerranéenne. Une chaise aussi belle que confortable."
+            "description": "Clean lines, thoughtful proportions, and a palette inspired by the Mediterranean coast. A hammock that looks as good as it feels. / Des lignes épurées et une palette inspirée de la côte méditerranéenne. Un hamac aussi beau que confortable."
           },
           {
             "title": "Sustainably Sourced / Approvisionnement responsable",
-            "description": "We work with certified suppliers across Europe to ensure our wood and fabrics meet rigorous environmental standards. / Nous travaillons avec des fournisseurs certifiés pour garantir des matériaux respectueux de l'environnement."
+            "description": "We work with certified suppliers across Europe to ensure our materials meet rigorous environmental standards. / Nous travaillons avec des fournisseurs certifiés pour garantir des matériaux respectueux de l'environnement."
           },
           {
-            "title": "Easy to Fold & Store / Facile à plier et ranger",
-            "description": "Lightweight and foldable in seconds — move your chair from terrace to garden to beach without any fuss. / Léger et pliable en quelques secondes — déplacez votre chaise de la terrasse au jardin sans effort."
+            "title": "Easy to Hang & Store / Facile à installer et ranger",
+            "description": "Lightweight and packable in seconds — move your hammock from garden to terrace to beach without any fuss. / Léger et rangeable en quelques secondes — déplacez votre hamac du jardin à la terrasse sans effort."
           },
           {
             "title": "Ships Across Europe / Livraison dans toute l'Europe",
-            "description": "We deliver to all major European markets with careful packaging to ensure your chair arrives in perfect condition. / Nous livrons dans toute l'Europe avec un emballage soigné pour une arrivée en parfait état."
+            "description": "We deliver to all major European markets with careful packaging to ensure your hammock arrives in perfect condition. / Nous livrons dans toute l'Europe avec un emballage soigné pour une arrivée en parfait état."
           }
         ]
       },
@@ -66,7 +66,7 @@
         "heading": "Built on Quality & Trust / Qualité et confiance",
         "items": [
           {
-            "label": "Chairs sold across Europe / Chaises vendues en Europe",
+            "label": "Hammocks sold across Europe / Hamacs vendus en Europe",
             "value": "20,000",
             "suffix": "+"
           },
@@ -99,12 +99,12 @@
         "heading": "Loved Across Europe / Apprécié dans toute l'Europe",
         "items": [
           {
-            "quote": "The most comfortable deck chair I have ever owned. It has been on our terrace in Provence for two summers and still looks brand new. / La chaise longue la plus confortable que j'aie jamais possédée. Deux étés sur notre terrasse en Provence et elle est toujours comme neuve.",
+            "quote": "The most comfortable hammock I have ever owned. It has been in our garden in Provence for two summers and still looks brand new. / Le hamac le plus confortable que j'aie jamais possédé. Deux étés dans notre jardin en Provence et il est toujours comme neuf.",
             "author": "Sophie M.",
             "role": "Aix-en-Provence, France"
           },
           {
-            "quote": "Beautifully made and delivered with such care. We ordered four for our garden and they are absolutely perfect. / Magnifiquement fabriquées et livrées avec soin. Nous en avons commandé quatre pour notre jardin — elles sont parfaites.",
+            "quote": "Beautifully made and delivered with such care. We ordered two for our terrace and they are absolutely perfect. / Magnifiquement fabriqués et livrés avec soin. Nous en avons commandé deux pour notre terrasse — ils sont parfaits.",
             "author": "James & Claire H.",
             "role": "Cornwall, United Kingdom"
           },
@@ -125,7 +125,7 @@
       "variant": "full-width",
       "content": {
         "heading": "Ready to Transform Your Outdoor Space? / Prêt à transformer votre espace extérieur ?",
-        "subheading": "Explore our full collection of premium deck chairs and find your perfect match — delivered to your door across Europe. / Découvrez notre collection complète et trouvez la chaise idéale, livrée chez vous partout en Europe.",
+        "subheading": "Explore our full collection of premium hammocks and find your perfect match — delivered to your door across Europe. / Découvrez notre collection complète et trouvez le hamac idéal, livré chez vous partout en Europe.",
         "cta": {
           "label": "Shop the Collection / Voir la collection",
           "href": "/services"
@@ -143,24 +143,24 @@
         "heading": "Your Questions, Answered / Vos questions, nos réponses",
         "faqs": [
           {
-            "question": "What materials are your deck chairs made from? / Dans quels matériaux sont fabriquées vos chaises longues ?",
-            "answer": "Our deck chairs are crafted from FSC-certified hardwood frames and UV-resistant, quick-dry fabric. Every component is chosen for durability, comfort, and visual appeal. / Nos chaises longues sont fabriquées avec des cadres en bois certifié FSC et un tissu résistant aux UV à séchage rapide. Chaque composant est sélectionné pour sa durabilité, son confort et son esthétique."
+            "question": "What materials are your hammocks made from? / Dans quels matériaux sont fabriqués vos hamacs ?",
+            "answer": "Our hammocks are crafted from sustainably sourced cotton and weather-resistant polyester blends, with solid hardwood or powder-coated steel spreader bars. Every component is chosen for durability, comfort, and visual appeal. / Nos hamacs sont fabriqués en coton issu de sources durables et en mélanges polyester résistants aux intempéries, avec des barres d'écartement en bois dur ou en acier laqué."
           },
           {
             "question": "Do you ship to my country? / Livrez-vous dans mon pays ?",
-            "answer": "We ship to all major European markets including France, the UK, Germany, Spain, Italy, the Netherlands, and more. Delivery times and costs are shown at checkout. / Nous livrons dans tous les grands marchés européens : France, Royaume-Uni, Allemagne, Espagne, Italie, Pays-Bas et bien d'autres. Les délais et frais de livraison sont indiqués lors du paiement."
+            "answer": "We ship to all major European markets including France, the UK, Germany, Spain, Italy, the Netherlands, and more. Delivery times and costs are shown at checkout. / Nous livrons dans tous les grands marchés européens : France, Royaume-Uni, Allemagne, Espagne, Italie, Pays-Bas et bien d'autres."
           },
           {
-            "question": "How do I care for my deck chair? / Comment entretenir ma chaise longue ?",
-            "answer": "Simply wipe the frame with a damp cloth and machine-wash the fabric cover at 30°C. We recommend storing your chair indoors or under a cover during winter months. / Essuyez simplement le cadre avec un chiffon humide et lavez la housse en tissu en machine à 30°C. Nous recommandons de ranger votre chaise à l'intérieur ou sous une housse pendant les mois d'hiver."
+            "question": "How do I hang my hammock? / Comment installer mon hamac ?",
+            "answer": "Each hammock comes with full hanging instructions and all necessary hardware. Our hammocks can be hung between two trees, posts, or used with our optional stand. / Chaque hamac est livré avec des instructions complètes et tout le matériel nécessaire. Nos hamacs peuvent être suspendus entre deux arbres, des poteaux, ou utilisés avec notre support optionnel."
           },
           {
-            "question": "Can I return my chair if I am not satisfied? / Puis-je retourner ma chaise si je ne suis pas satisfait(e) ?",
-            "answer": "Yes — we offer a 30-day return policy on all unused items in their original packaging. Please contact our team and we will arrange a hassle-free return. / Oui — nous proposons une politique de retour de 30 jours sur tous les articles non utilisés dans leur emballage d'origine. Contactez notre équipe et nous organiserons un retour sans tracas."
+            "question": "Can I return my hammock if I am not satisfied? / Puis-je retourner mon hamac si je ne suis pas satisfait(e) ?",
+            "answer": "Yes — we offer a 30-day return policy on all unused items in their original packaging. Please contact our team and we will arrange a hassle-free return. / Oui — nous proposons une politique de retour de 30 jours sur tous les articles non utilisés dans leur emballage d'origine."
           },
           {
             "question": "Do you offer bulk or trade orders? / Proposez-vous des commandes en gros ou professionnelles ?",
-            "answer": "Absolutely. We work with hotels, resorts, restaurants, and retailers across Europe. Get in touch via our contact page and we will be happy to discuss your requirements. / Absolument. Nous travaillons avec des hôtels, des resorts, des restaurants et des détaillants dans toute l'Europe. Contactez-nous via notre page contact et nous serons ravis de discuter de vos besoins."
+            "answer": "Absolutely. We work with hotels, resorts, restaurants, and retailers across Europe. Get in touch via our contact page and we will be happy to discuss your requirements. / Absolument. Nous travaillons avec des hôtels, des resorts, des restaurants et des détaillants dans toute l'Europe."
           }
         ]
       },
