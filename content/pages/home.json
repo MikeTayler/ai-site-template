@@ -1,17 +1,17 @@
 {
   "slug": "home",
-  "title": "Align Studio — Reformer Pilates in Hamilton",
-  "description": "Boutique reformer pilates studio in Hamilton: small classes, expert instruction, and a calm space to build strength and balance.",
+  "title": "StormShield Umbrellas — Built to Outlast Any Storm",
+  "description": "StormShield makes the world's only umbrellas guaranteed never to collapse — even in cyclone-force winds. Discover our range and find your perfect shield.",
   "sections": [
     {
       "id": "hero-home",
       "component": "Hero",
       "variant": "centered",
       "content": {
-        "heading": "Welcome to a gathering of devs",
-        "subheading": "Align brings you back to yourself — through small-group reformer pilates that rebuilds strength, restores balance, and fits gently into your life.",
+        "heading": "The Last Umbrella You'll Ever Need",
+        "subheading": "StormShield umbrellas are engineered to stand firm in cyclone-force winds — no collapsing, no inside-out moments, no excuses. Just reliable, beautiful protection, every single time.",
         "cta": {
-          "label": "Start Your Journey",
+          "label": "Shop Umbrellas",
           "href": "/services"
         }
       },
@@ -22,27 +22,35 @@
       }
     },
     {
-      "id": "benefits-grid",
+      "id": "features-home",
       "component": "FeatureGrid",
       "variant": "three-column",
       "content": {
-        "heading": "Why members choose Align",
+        "heading": "Why StormShield Stands Apart",
         "items": [
           {
-            "title": "Small classes, real attention",
-            "description": "We cap every session so your instructor can correct form and tailor options — whether you are new to the reformer or building on years of practice."
+            "title": "Cyclone-Rated Frame",
+            "description": "Our patented AeroLock™ frame is stress-tested to withstand winds exceeding 200 km/h. Where ordinary umbrellas fold, StormShield holds steady."
           },
           {
-            "title": "Strength without strain",
-            "description": "Controlled, low-impact movement builds deep core stability and mobility — ideal for rehab, pre/postnatal, and anyone easing back into fitness."
+            "title": "Zero-Collapse Guarantee",
+            "description": "Every StormShield comes with our lifetime Zero-Collapse Guarantee. If it ever inverts or collapses in any weather condition, we replace it — no questions asked."
           },
           {
-            "title": "A calm, welcoming space",
-            "description": "No mirrors, no pressure. Just natural light, good music, and a community that shows up for themselves and each other."
+            "title": "Featherlight Strength",
+            "description": "Advanced aerospace-grade aluminium and fibreglass ribs give you maximum strength at minimum weight. Carry it all day without a second thought."
           },
           {
-            "title": "Nourishment that supports your movement",
-            "description": "Our nutritional plans are thoughtfully designed to complement your pilates practice — helping you feel energised, balanced, and ready to move with ease."
+            "title": "All-Weather Canopy",
+            "description": "Our UV-blocking, water-repellent canopy sheds rain instantly and protects against harsh sun — so you're covered in every sense of the word."
+          },
+          {
+            "title": "Ergonomic Comfort Grip",
+            "description": "A contoured, non-slip handle means a secure, comfortable hold even in the wettest, windiest conditions. Your hand won't tire, and the umbrella won't slip."
+          },
+          {
+            "title": "Thoughtfully Designed",
+            "description": "Elegant colour options and a compact carry sleeve mean StormShield looks as good as it performs — from the morning commute to a weekend adventure."
           }
         ]
       },
@@ -51,52 +59,91 @@
       }
     },
     {
+      "id": "benefits-home",
+      "component": "Stats",
+      "variant": "counter-row",
+      "content": {
+        "heading": "Built on Proof, Not Promises",
+        "items": [
+          {
+            "label": "Maximum wind speed tested",
+            "value": "200",
+            "suffix": " km/h"
+          },
+          {
+            "label": "Umbrellas sold worldwide",
+            "value": "50,000",
+            "suffix": "+"
+          },
+          {
+            "label": "Collapse incidents reported",
+            "value": "0"
+          },
+          {
+            "label": "Customer satisfaction",
+            "value": "99",
+            "suffix": "%"
+          }
+        ]
+      },
+      "settings": {
+        "maxWidth": "wide",
+        "background": "neutral"
+      }
+    },
+    {
       "id": "pricing-home",
       "component": "PricingTable",
       "variant": "tier-cards",
       "content": {
-        "heading": "Straightforward pricing",
+        "heading": "Simple, Transparent Pricing",
         "tiers": [
           {
-            "name": "Single Session",
-            "price": "$50",
-            "currency": "NZD",
+            "name": "Everyday Shield",
+            "price": "$89",
+            "currency": "USD",
             "features": [
-              "One group reformer class",
-              "All equipment provided",
-              "Perfect for getting started"
+              "AeroLock™ cyclone-rated frame",
+              "Zero-Collapse Guarantee",
+              "UV-blocking canopy",
+              "Compact carry sleeve",
+              "Perfect for daily commuters"
             ],
             "cta": {
-              "label": "Book a session",
+              "label": "Buy Now",
               "href": "/contact"
             }
           },
           {
-            "name": "Monthly Membership",
-            "price": "$250",
-            "currency": "NZD / month",
+            "name": "Storm Pro",
+            "price": "$149",
+            "currency": "USD",
             "features": [
-              "Unlimited group classes",
-              "Best value for regular movers",
-              "Priority booking window"
+              "Everything in Everyday Shield",
+              "Extra-wide 130 cm canopy",
+              "Premium ergonomic comfort grip",
+              "Reinforced double-layer canopy",
+              "Ideal for frequent travellers"
             ],
             "cta": {
-              "label": "Get started",
+              "label": "Buy Now",
               "href": "/contact"
             }
           },
           {
-            "name": "Life Membership",
-            "price": "$5,000",
-            "currency": "NZD one-time",
+            "name": "Cyclone Elite",
+            "price": "$229",
+            "currency": "USD",
             "features": [
-              "Unlimited group classes for life",
-              "Permanent priority booking",
-              "Exclusive member events & workshops",
-              "Complimentary annual private session"
+              "Everything in Storm Pro",
+              "Aerospace-grade titanium frame",
+              "Lifetime free replacement promise",
+              "Custom colour & monogram options",
+              "Priority customer support",
+              "The ultimate all-weather companion"
             ],
             "cta": {
-              "label": "Enquire now",
+              "label": "Buy Now",
               "href": "/contact"
             }
           }
@@ -111,21 +158,22 @@
       "component": "Testimonials",
       "variant": "cards",
       "content": {
-        "heading": "What our community says",
+        "heading": "Trusted Through Every Storm",
         "items": [
           {
-            "quote": "After a knee injury I was nervous about group classes — the team met me where I was. Six months in, I feel stronger than I have in years.",
-            "author": "Sarah M.",
-            "role": "Member since 2023"
+            "quote": "I was caught in a tropical storm in Thailand and my StormShield didn't budge. Every other umbrella around me was destroyed. I'm a customer for life.",
+            "author": "Rachel T.",
+            "role": "Verified Buyer"
           },
           {
-            "quote": "Best studio in Hamilton, changed my life.",
-            "author": "Dave R."
+            "quote": "I've gone through dozens of umbrellas over the years. StormShield is the first one that actually does what it says. Worth every cent.",
+            "author": "Marcus L.",
+            "role": "Storm Pro Owner"
           },
           {
-            "quote": "I have tried bigger gyms — Align feels personal. They remember your name and your goals.",
-            "author": "Alex P.",
-            "role": "Open-level classes"
+            "quote": "The Cyclone Elite is genuinely beautiful and genuinely indestructible. I've recommended it to everyone I know.",
+            "author": "Priya S.",
+            "role": "Cyclone Elite Owner"
           }
         ]
       },
@@ -138,11 +186,11 @@
       "component": "CTABanner",
       "variant": "full-width",
       "content": {
-        "heading": "Ready to step on the reformer?",
-        "subheading": "Book your first class or send us a question — we will help you find the right session.",
+        "heading": "Ready to Never Worry About the Weather Again?",
+        "subheading": "Join over 50,000 people who've made the switch to an umbrella that truly holds up — whatever the sky throws at them.",
         "cta": {
-          "label": "Get in touch",
-          "href": "/contact"
+          "label": "Shop StormShield",
+          "href": "/services"
         }
       },
       "settings": {
@@ -154,31 +202,27 @@
       "component": "FAQAccordion",
       "variant": "simple",
       "content": {
-        "heading": "Your questions, answered",
+        "heading": "Your Questions, Answered",
         "faqs": [
           {
-            "question": "I have never done pilates before — is Align Studio the right place to start?",
-            "answer": "Absolutely. Our Reformer Fundamentals course is designed specifically for beginners. Over four weeks you will learn how to set up the machine, work with the springs safely, and build the foundations that make every class feel more rewarding. Our instructors are patient, encouraging, and genuinely love helping new members find their footing."
+            "question": "What makes StormShield umbrellas different from regular umbrellas?",
+            "answer": "StormShield umbrellas are built around our patented AeroLock™ frame — a system of aerospace-grade ribs and a reinforced hub that distributes wind force evenly across the canopy instead of concentrating it at weak points. This is what allows our umbrellas to withstand cyclone-force winds that would destroy a conventional umbrella in seconds."
           },
           {
-            "question": "How small are the classes, and why does it matter?",
-            "answer": "We cap every group session at eight people. That means your instructor can see you, cue you by name, and offer modifications that suit your body on that particular day — something that simply is not possible in larger studio settings. Smaller classes also create a warmer, more supportive atmosphere where you can focus without feeling watched."
+            "question": "What does the Zero-Collapse Guarantee actually cover?",
+            "answer": "It covers exactly what it says: if your StormShield umbrella ever collapses or inverts under any weather condition during normal use, we will replace it free of charge. No receipts, no fuss — just contact our support team and we'll sort it out promptly."
           },
           {
-            "question": "Is reformer pilates suitable if I am recovering from an injury or managing a health condition?",
-            "answer": "Reformer pilates is widely used in rehabilitation because it supports the body through movement rather than loading it. We have experience working with members returning from back, hip, and knee injuries, as well as those managing chronic conditions. We do recommend letting us know about any injuries or medical considerations before your first class so we can tailor your experience safely."
+            "question": "How heavy is a StormShield umbrella?",
+            "answer": "Despite their strength, our umbrellas are surprisingly light. The Everyday Shield weighs just 380 g, the Storm Pro 420 g, and the Cyclone Elite 390 g thanks to its titanium frame. You'll barely notice it in your bag."
           },
           {
-            "question": "What do I need to bring to my first class?",
-            "answer": "Grip socks are required for hygiene and safety on the reformer — we stock them at reception if you need a pair. Wear comfortable, form-fitting clothing you can move freely in, and avoid anything with zips or buckles that could catch the equipment. Bring a water bottle and arrive five minutes early so we can give you a quick studio orientation."
+            "question": "Which model is right for me?",
+            "answer": "If you want reliable everyday protection at a great price, the Everyday Shield is a wonderful starting point. Frequent travellers or those in particularly stormy climates tend to love the Storm Pro's wider canopy and reinforced double-layer design. If you want the absolute best — and a truly personalised umbrella — the Cyclone Elite is our flagship and comes with a lifetime free replacement promise."
           },
           {
-            "question": "Can I come if I am pregnant or have recently had a baby?",
-            "answer": "Yes — with the right guidance, reformer pilates can be a wonderful support during and after pregnancy. Our instructor Lucy is pre- and postnatal trained and will work with you to ensure every movement is appropriate for your stage. Please let us know when you book so we can place you with the right class and instructor."
-          },
-          {
-            "question": "How do I get started, and what is the best membership option for a new member?",
-            "answer": "The easiest first step is to reach out via our contact page or send us an email — we will have a friendly conversation about your goals and recommend the right starting point. Most new members begin with a single session at $50 to get a feel for the studio, then move to our monthly membership at $250 for unlimited classes once they are ready to commit to a regular practice."
+            "question": "Do you ship internationally?",
+            "answer": "Yes — we ship to over 60 countries worldwide. Shipping times and costs vary by destination; full details are available at checkout. We think everyone deserves an umbrella that won't let them down, wherever they are in the world."
           }
         ]
       },
